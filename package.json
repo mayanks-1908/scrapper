@@ -1,0 +1,35 @@
+{
+  "name": "scrapper",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "scrape": "node src/main.js",
+    "puppeter": "node src/puppeter.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mayanks-1908/scrapper.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mayanks-1908/scrapper/issues"
+  },
+  "homepage": "https://github.com/mayanks-1908/scrapper#readme",
+  "dependencies": {
+    "ajv": "^8.17.1",
+    "axios": "^1.11.0",
+    "cheerio": "^1.1.2",
+    "dotenv": "^17.2.1",
+    "fs-extra": "^11.3.1",
+    "json2csv": "^6.0.0-alpha.2",
+    "p-limit": "^7.1.0",
+    "puppeteer": "^24.16.2",
+    "puppeteer-extra": "^3.3.6",
+    "puppeteer-extra-plugin-stealth": "^2.11.2"
+  }
+}
