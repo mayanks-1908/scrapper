@@ -1,0 +1,1362 @@
+{
+  "@type": "Restaurant",
+  "@id": "https://www.ubereats.com/gb/store/agrawala/tvRJdOS-VB6KwYGjWc9Ihg",
+  "name": "Agrawala",
+  "image": [
+    "https://tb-static.uber.com/prod/enhanced-images/image-touchup-v1/3b2afbc99ee4da0bfcf055078107c27a/49e32009fe58f54b8fae40110b8753c7.jpeg",
+    "https://tb-static.uber.com/prod/enhanced-images/image-touchup-v1/fc612a504767816c318014e42b3e29b1/1225b09f45c521805bcf1497a0731745.jpeg"
+  ],
+  "aggregateRating": {
+    "@type": "AggregateRating",
+    "ratingValue": 3.7,
+    "reviewCount": "150"
+  },
+  "servesCuisine": [
+    "Indian",
+    "Vegetarian",
+    "Chinese",
+    "Fast food",
+    "Desserts"
+  ],
+  "geo": {
+    "@type": "GeoCoordinates",
+    "latitude": 51.472752,
+    "longitude": -0.3566863
+  },
+  "telephone": "+447766918894",
+  "openingHoursSpecification": [
+    {
+      "@type": "OpeningHoursSpecification",
+      "dayOfWeek": "Sunday",
+      "opens": "12:0",
+      "closes": "23:45"
+    },
+    {
+      "@type": "OpeningHoursSpecification",
+      "dayOfWeek": "Sunday",
+      "opens": "8:0",
+      "closes": "12:0"
+    },
+    {
+      "@type": "OpeningHoursSpecification",
+      "dayOfWeek": "Monday",
+      "opens": "12:0",
+      "closes": "22:30"
+    },
+    {
+      "@type": "OpeningHoursSpecification",
+      "dayOfWeek": "Monday",
+      "opens": "8:0",
+      "closes": "12:0"
+    },
+    {
+      "@type": "OpeningHoursSpecification",
+      "dayOfWeek": [
+        "Tuesday",
+        "Wednesday",
+        "Thursday",
+        "Friday",
+        "Saturday"
+      ],
+      "opens": "12:0",
+      "closes": "23:45"
+    },
+    {
+      "@type": "OpeningHoursSpecification",
+      "dayOfWeek": [
+        "Tuesday",
+        "Wednesday",
+        "Thursday",
+        "Friday",
+        "Saturday"
+      ],
+      "opens": "8:0",
+      "closes": "12:0"
+    }
+  ],
+  "hasMenu": {
+    "@type": "Menu",
+    "menu_sections": [
+      "Street Bites",
+      "Hyderabadi Special Street Bites",
+      "Chowpatty Chaats",
+      "Chowpatty Pavs",
+      "Agrawala Locals",
+      "Idlis",
+      "Dosas",
+      "Special Dosas",
+      "Vadas",
+      "Uttapams",
+      "Indo Chineses",
+      "Classic Curries",
+      "Naans",
+      "Parathas",
+      "Rice",
+      "Lassis",
+      "Agrawala Special Desserts",
+      "Teas and Coffees",
+      "Kids Menu",
+      "Drinks"
+    ],
+    "Street Bites": [
+      {
+        "@type": "MenuItem",
+        "name": "Potato Bhajias (6 pieces)",
+        "description": "Golden fried potato slices, spiced and coated in a light chickpea batter for a crispy delight.",
+        "offers": {
+          "@type": "Offer",
+          "price": "4.50",
+          "priceCurrency": "GBP"
+        }
+      },
+      {
+        "@type": "MenuItem",
+        "name": "Onion Bhajiyas (6 pieces)",
+        "description": "Crispy onion fritters, deep-fried with a touch of spice for a delightful crunch.",
+        "offers": {
+          "@type": "Offer",
+          "price": "4.50",
+          "priceCurrency": "GBP"
+        }
+      },
+      {
+        "@type": "MenuItem",
+        "name": "Mixed Bhajiyas (8 pieces)",
+        "description": "A delightful mix of onion, potato and other seasonal vegetables, battered and fried to golden perfection.",
+        "offers": {
+          "@type": "Offer",
+          "price": "6.75",
+          "priceCurrency": "GBP"
+        }
+      },
+      {
+        "@type": "MenuItem",
+        "name": "Vegetable Spring Rolls (5 pieces)",
+        "description": "Crispy spring rolls filled with vegetables and seasoned with spices. Served piping hot for the ultimate crunch.",
+        "offers": {
+          "@type": "Offer",
+          "price": "4.50",
+          "priceCurrency": "GBP"
+        }
+      },
+      {
+        "@type": "MenuItem",
+        "name": "Special Potato Twister",
+        "description": "A spiral potato creation, deep fried and sprinkled with our special masala seasoning for a tasty twist on fries.",
+        "offers": {
+          "@type": "Offer",
+          "price": "6.75",
+          "priceCurrency": "GBP"
+        }
+      }
+    ],
+    "Hyderabadi Special Street Bites": [
+      {
+        "@type": "MenuItem",
+        "name": "Cut Mirchi",
+        "description": "Sliced and fried green chilies, tossed with spices for a zesty and crunchy snack.",
+        "offers": {
+          "@type": "Offer",
+          "price": "5.45",
+          "priceCurrency": "GBP"
+        }
+      },
+      {
+        "@type": "MenuItem",
+        "name": "Punjabi Samosas (3 pieces)",
+        "description": "Golden, crispy pastry filled with spiced potatoes and peas, delivering an authentic Punjabi flavour in every bite.",
+        "offers": {
+          "@type": "Offer",
+          "price": "5.45",
+          "priceCurrency": "GBP"
+        }
+      },
+      {
+        "@type": "MenuItem",
+        "name": "Vankaya Bajjis (3 pieces)",
+        "description": "Aubergine fritters dipped in a spiced gram flour batter and fried to a delightful crisp.",
+        "offers": {
+          "@type": "Offer",
+          "price": "5.45",
+          "priceCurrency": "GBP"
+        }
+      },
+      {
+        "@type": "MenuItem",
+        "name": "Soya 65",
+        "description": "Tender soy chunks, marinated and fried in a spicy South Indian style coating for a fiery bite.",
+        "offers": {
+          "@type": "Offer",
+          "price": "5.99",
+          "priceCurrency": "GBP"
+        }
+      },
+      {
+        "@type": "MenuItem",
+        "name": "Aratikaya Bajji",
+        "description": "Banana pepper fritters fried to golden perfection, a traditional treat with a mild spicy kick.",
+        "offers": {
+          "@type": "Offer",
+          "price": "5.99",
+          "priceCurrency": "GBP"
+        }
+      },
+      {
+        "@type": "MenuItem",
+        "name": "Mysore Bonda",
+        "description": "Soft and round fritters made with spiced lentil batter, crispy on the outside and soft within, a popular South Indian treat.",
+        "offers": {
+          "@type": "Offer",
+          "price": "5.45",
+          "priceCurrency": "GBP"
+        }
+      }
+    ],
+    "Chowpatty Chaats": [
+      {
+        "@type": "MenuItem",
+        "name": "Gol Gappe",
+        "description": "Crispy puris filled with tangy tamarind water, spiced chickpeas and potatoes an explosion of flavours in every bite.",
+        "offers": {
+          "@type": "Offer",
+          "price": "5.45",
+          "priceCurrency": "GBP"
+        }
+      },
+      {
+        "@type": "MenuItem",
+        "name": "Dahi Puri",
+        "description": "Crisp puris filled with creamy yoghurt, chutneys, sev, offering a perfect balance of sweet, tangy and crunchy.",
+        "offers": {
+          "@type": "Offer",
+          "price": "5.99",
+          "priceCurrency": "GBP"
+        }
+      },
+      {
+        "@type": "MenuItem",
+        "name": "Papdi Chaat",
+        "description": "Crispy pappadis layered with spiced chickpeas, tangy chutneys, yoghurt, sev for a burst of flavour and texture.",
+        "offers": {
+          "@type": "Offer",
+          "price": "5.45",
+          "priceCurrency": "GBP"
+        }
+      },
+      {
+        "@type": "MenuItem",
+        "name": "Samosa Chaat",
+        "description": "Crushed samosas mixed with tangy tamarind chutney, yoghurt and savoury spices, a street food classic.",
+        "offers": {
+          "@type": "Offer",
+          "price": "5.99",
+          "priceCurrency": "GBP"
+        }
+      },
+      {
+        "@type": "MenuItem",
+        "name": "Ragda Chaat",
+        "description": "Spiced white peas topped with crispy sev, pappadis, chutneys for a hearty and tangy delight.",
+        "offers": {
+          "@type": "Offer",
+          "price": "5.99",
+          "priceCurrency": "GBP"
+        }
+      },
+      {
+        "@type": "MenuItem",
+        "name": "Sev Puri",
+        "description": "Crispy puris loaded with a mixture of chutneys, mashed potatoes, sev, delivering a crunchy and flavorful experience.",
+        "offers": {
+          "@type": "Offer",
+          "price": "5.45",
+          "priceCurrency": "GBP"
+        }
+      },
+      {
+        "@type": "MenuItem",
+        "name": "Dahi Papdi Chat",
+        "description": "Crispy papdi topped with tangy yogurt, spices, and chutneys for a burst of flavors in every bite.",
+        "offers": {
+          "@type": "Offer",
+          "price": "5.95",
+          "priceCurrency": "GBP"
+        }
+      },
+      {
+        "@type": "MenuItem",
+        "name": "Special Masala Puri",
+        "description": "A unique version of the classic sev puri, topped with our signature masala mix and chutneys.",
+        "offers": {
+          "@type": "Offer",
+          "price": "5.99",
+          "priceCurrency": "GBP"
+        }
+      }
+    ],
+    "Chowpatty Pavs": [
+      {
+        "@type": "MenuItem",
+        "name": "Pav Bhaji",
+        "description": "A buttery, spiced vegetable mash, served with soft, toasted buns pav. A Mumbai street food classic.",
+        "offers": {
+          "@type": "Offer",
+          "price": "7.95",
+          "priceCurrency": "GBP"
+        }
+      },
+      {
+        "@type": "MenuItem",
+        "name": "Agrawala Special Pav Bhaji",
+        "description": "Special pav bhaji with an extra burst of spices and flavors. Served with buttery pavs.",
+        "offers": {
+          "@type": "Offer",
+          "price": "8.95",
+          "priceCurrency": "GBP"
+        }
+      },
+      {
+        "@type": "MenuItem",
+        "name": "Extra Pav",
+        "description": "Extra Buns toasted in butter",
+        "offers": {
+          "@type": "Offer",
+          "price": "1.95",
+          "priceCurrency": "GBP"
+        }
+      },
+      {
+        "@type": "MenuItem",
+        "name": "Cheese Pav Bhaji",
+        "description": "Our rich pav bhaji topped with melted cheese for an extra layer of indulgence.",
+        "offers": {
+          "@type": "Offer",
+          "price": "8.45",
+          "priceCurrency": "GBP"
+        }
+      }
+    ],
+    "Agrawala Locals": [
+      {
+        "@type": "MenuItem",
+        "name": "Vada Pav",
+        "description": "Spicy potato vada nestled in a soft bun with tangy chutney, a classic Mumbai street food delight.",
+        "offers": {
+          "@type": "Offer",
+          "price": "2.75",
+          "priceCurrency": "GBP"
+        }
+      },
+      {
+        "@type": "MenuItem",
+        "name": "Mirchi Pav",
+        "description": "Fried green chili, served with soft pav and perfect for spice lovers.",
+        "offers": {
+          "@type": "Offer",
+          "price": "2.75",
+          "priceCurrency": "GBP"
+        }
+      },
+      {
+        "@type": "MenuItem",
+        "name": "Butter Vada Pav",
+        "description": "A buttery twist on the classic vada pav and offering extra richness with every bite.",
+        "offers": {
+          "@type": "Offer",
+          "price": "3.95",
+          "priceCurrency": "GBP"
+        }
+      },
+      {
+        "@type": "MenuItem",
+        "name": "Cheese Vada Pav",
+        "description": "A cheesy upgrade to the traditional vada pav, loaded with flavour and texture.",
+        "offers": {
+          "@type": "Offer",
+          "price": "3.45",
+          "priceCurrency": "GBP"
+        }
+      },
+      {
+        "@type": "MenuItem",
+        "name": "Schezwan Vada Pav",
+        "description": "The iconic vada pav with a fiery schezwan sauce for a bold and spicy kick.",
+        "offers": {
+          "@type": "Offer",
+          "price": "3.45",
+          "priceCurrency": "GBP"
+        }
+      },
+      {
+        "@type": "MenuItem",
+        "name": "Schezwan Cheese Vada Pav",
+        "description": "A fusion of spicy schezwan and creamy cheese in a soft vada pav, a must try for flavour adventurers.",
+        "offers": {
+          "@type": "Offer",
+          "price": "3.95",
+          "priceCurrency": "GBP"
+        }
+      },
+      {
+        "@type": "MenuItem",
+        "name": "Samosa Pav",
+        "description": "A delectable street food delight featuring a crispy, spiced potato filled samosa tucked inside a soft pav bun. Served with tangy chutneys for a perfect balance of flavours.",
+        "offers": {
+          "@type": "Offer",
+          "price": "3.95",
+          "priceCurrency": "GBP"
+        }
+      },
+      {
+        "@type": "MenuItem",
+        "name": "French Fries",
+        "description": "Golden fries an addictive snack.",
+        "offers": {
+          "@type": "Offer",
+          "price": "3.45",
+          "priceCurrency": "GBP"
+        }
+      },
+      {
+        "@type": "MenuItem",
+        "name": "Masala Fries (large)",
+        "description": "Double the indulgence with a serving of perfectly crisp fries, coated in aromatic spices and masala, making this a crowd pleasing treat that’s full of flavour.",
+        "offers": {
+          "@type": "Offer",
+          "price": "3.95",
+          "priceCurrency": "GBP"
+        }
+      },
+      {
+        "@type": "MenuItem",
+        "name": "Punjabi Choley",
+        "description": "Flavorful, tangy chickpeas simmered in a rich tomato based gravy. Served with your choice of fluffy puris, crispy bhatura or soft parathas for a hearty and satisfying meal.",
+        "offers": {
+          "@type": "Offer",
+          "price": "6.95",
+          "priceCurrency": "GBP"
+        }
+      },
+      {
+        "@type": "MenuItem",
+        "name": "Kurma Bhaji",
+        "description": "A rich and creamy South Indian style vegetable kurma, spiced to perfection. Served with either soft puris or buttery parathas to soak up the delicious flavours.",
+        "offers": {
+          "@type": "Offer",
+          "price": "7.95",
+          "priceCurrency": "GBP"
+        }
+      }
+    ],
+    "Idlis": [
+      {
+        "@type": "MenuItem",
+        "name": "Idli",
+        "description": "Soft and fluffy steamed rice cakes, served with a side of tangy sambar and fresh coconut chutney, offering a light and healthy South Indian classic.",
+        "offers": {
+          "@type": "Offer",
+          "price": "4.95",
+          "priceCurrency": "GBP"
+        }
+      },
+      {
+        "@type": "MenuItem",
+        "name": "Podi Idli",
+        "description": "Steamed idlis generously coated in spicy, aromatic podi powder spiced lentil mix and drizzled with ghee for a flavour packed, traditional South Indian snack.",
+        "offers": {
+          "@type": "Offer",
+          "price": "5.45",
+          "priceCurrency": "GBP"
+        }
+      },
+      {
+        "@type": "MenuItem",
+        "name": "Sambar Idli",
+        "description": "Fluffy idlis soaked in a bowl of hot, flavorful sambar, absorbing the tangy, spiced flavours for a hearty and comforting dish.",
+        "offers": {
+          "@type": "Offer",
+          "price": "5.45",
+          "priceCurrency": "GBP"
+        }
+      },
+      {
+        "@type": "MenuItem",
+        "name": "Guntur Podi Idli",
+        "description": "Idlis coated with a fiery Guntur style podi spicy lentil powder and drizzled with ghee, delivering a spicy, aromatic punch that’s full of flavour.",
+        "offers": {
+          "@type": "Offer",
+          "price": "5.45",
+          "priceCurrency": "GBP"
+        }
+      },
+      {
+        "@type": "MenuItem",
+        "name": "Ghee Podi Idli",
+        "description": "Steamed idlis sprinkled with flavorful podi powder and generously drizzled with ghee, combining softness, spice and richness in every bite.",
+        "offers": {
+          "@type": "Offer",
+          "price": "5.95",
+          "priceCurrency": "GBP"
+        }
+      },
+      {
+        "@type": "MenuItem",
+        "name": "Mini Sambar Idlis (12 pieces)",
+        "description": "Mini idlis, served in a bowl of flavorful, tangy sambar, where each bite sized idli soaks up the spiced broth for a fun and delicious snack or meal.",
+        "offers": {
+          "@type": "Offer",
+          "price": "5.95",
+          "priceCurrency": "GBP"
+        }
+      },
+      {
+        "@type": "MenuItem",
+        "name": "Chilli Ghee Podi Idli",
+        "description": "Idlis coated in spicy podi powder, tossed with green chilies and drizzled with ghee, creating a dish that's bursting with bold flavours and a hint of heat.",
+        "offers": {
+          "@type": "Offer",
+          "price": "6.45",
+          "priceCurrency": "GBP"
+        }
+      },
+      {
+        "@type": "MenuItem",
+        "name": "Butter Idli",
+        "description": "Soft, pillowy idlis drizzled with rich, melted butter, offering a simple yet indulgent take on this classic South Indian dish.",
+        "offers": {
+          "@type": "Offer",
+          "price": "6.45",
+          "priceCurrency": "GBP"
+        }
+      },
+      {
+        "@type": "MenuItem",
+        "name": "Mini Idli",
+        "description": "Soft, bite-sized idlis perfect for a light snack or meal.",
+        "offers": {
+          "@type": "Offer",
+          "price": "4.95",
+          "priceCurrency": "GBP"
+        }
+      },
+      {
+        "@type": "MenuItem",
+        "name": "Idlis (2 pieces) with 1 Medu Vada",
+        "description": "A delightful combination of 2 soft idlis paired with a crispy, golden medu vada. Served with sambar and chutney for a satisfying and balanced meal.",
+        "offers": {
+          "@type": "Offer",
+          "price": "5.45",
+          "priceCurrency": "GBP"
+        }
+      },
+      {
+        "@type": "MenuItem",
+        "name": "Upma",
+        "description": "A savoury South Indian semolina dish, cooked with spices, curry leaves and vegetables, offering a warm and comforting meal that's perfect for any time of day.",
+        "offers": {
+          "@type": "Offer",
+          "price": "4.95",
+          "priceCurrency": "GBP"
+        }
+      }
+    ],
+    "Dosas": [
+      {
+        "@type": "MenuItem",
+        "name": "Plain Dosa",
+        "description": "A thin, crispy dosa, served with sambar and chutneys, offering a classic South Indian flavour.",
+        "offers": {
+          "@type": "Offer",
+          "price": "4.95",
+          "priceCurrency": "GBP"
+        }
+      },
+      {
+        "@type": "MenuItem",
+        "name": "Masala Dosa",
+        "description": "A crisp dosa filled with spiced potato masala, accompanied by tangy sambar and coconut chutney.",
+        "offers": {
+          "@type": "Offer",
+          "price": "5.95",
+          "priceCurrency": "GBP"
+        }
+      },
+      {
+        "@type": "MenuItem",
+        "name": "Guntur Podi Dosa",
+        "description": "A spicy, crispy dosa coated with fiery Guntur podi spiced lentil powder, delivering a delightful crunch and heat in every bite.",
+        "offers": {
+          "@type": "Offer",
+          "price": "5.95",
+          "priceCurrency": "GBP"
+        }
+      },
+      {
+        "@type": "MenuItem",
+        "name": "Guntur Podi Masala Dosa",
+        "description": "A classic masala dosa infused with the heat of Guntur podi, filled with spiced potato masala. Served with sambar and chutney.",
+        "offers": {
+          "@type": "Offer",
+          "price": "6.95",
+          "priceCurrency": "GBP"
+        }
+      },
+      {
+        "@type": "MenuItem",
+        "name": "Kal Dosa",
+        "description": "Thick, soft and fluffy, this dosa is cooked on a flat iron skillet to perfection. Served with sambar and chutneys.",
+        "offers": {
+          "@type": "Offer",
+          "price": "4.95",
+          "priceCurrency": "GBP"
+        }
+      },
+      {
+        "@type": "MenuItem",
+        "name": "Onion Dosa",
+        "description": "A golden, crispy dosa generously sprinkled with caramelised onions. Served with sambar and coconut chutney for an extra burst of flavour.",
+        "offers": {
+          "@type": "Offer",
+          "price": "5.95",
+          "priceCurrency": "GBP"
+        }
+      }
+    ],
+    "Special Dosas": [
+      {
+        "@type": "MenuItem",
+        "name": "Ghee Karam Dosa",
+        "description": "A rich, crispy dosa generously drizzled with aromatic ghee and a spicy karam chilli paste, perfect for those who love bold flavours.",
+        "offers": {
+          "@type": "Offer",
+          "price": "7.95",
+          "priceCurrency": "GBP"
+        }
+      },
+      {
+        "@type": "MenuItem",
+        "name": "Ghee Masala Dosa",
+        "description": "A crisp dosa enriched with ghee and stuffed with spiced potato masala, offering a buttery indulgence.",
+        "offers": {
+          "@type": "Offer",
+          "price": "7.95",
+          "priceCurrency": "GBP"
+        }
+      },
+      {
+        "@type": "MenuItem",
+        "name": "Cheese Dosa",
+        "description": "A crisp dosa filled with gooey melted cheese, creating a fusion of South Indian tradition and indulgence.",
+        "offers": {
+          "@type": "Offer",
+          "price": "8.45",
+          "priceCurrency": "GBP"
+        }
+      },
+      {
+        "@type": "MenuItem",
+        "name": "Cheese Masala Dosa",
+        "description": "A cheesy take on the classic masala dosa, filled with spiced potato masala and melted cheese for the ultimate comfort food experience.",
+        "offers": {
+          "@type": "Offer",
+          "price": "8.45",
+          "priceCurrency": "GBP"
+        }
+      },
+      {
+        "@type": "MenuItem",
+        "name": "Paneer Dosa",
+        "description": "Soft paneer cooked in a spiced filling, wrapped in a crispy dosa for a hearty and satisfying meal.",
+        "offers": {
+          "@type": "Offer",
+          "price": "8.45",
+          "priceCurrency": "GBP"
+        }
+      },
+      {
+        "@type": "MenuItem",
+        "name": "Paneer Masala Dosa",
+        "description": "A fusion of paneer and potato masala, tucked inside a crisp dosa. Served with chutneys and sambar.",
+        "offers": {
+          "@type": "Offer",
+          "price": "8.45",
+          "priceCurrency": "GBP"
+        }
+      },
+      {
+        "@type": "MenuItem",
+        "name": "Nellore Special Dosa",
+        "description": "A unique dosa from the Nellore region, packed with a special spice mix for an extra punch of flavour.",
+        "offers": {
+          "@type": "Offer",
+          "price": "7.95",
+          "priceCurrency": "GBP"
+        }
+      },
+      {
+        "@type": "MenuItem",
+        "name": "Nellore Special Ghee Karam Masala Dosa",
+        "description": "A special dosa from Nellore, rich with ghee, spicy karam, and stuffed with potato masala for a mouthwatering experience.",
+        "offers": {
+          "@type": "Offer",
+          "price": "9.95",
+          "priceCurrency": "GBP"
+        }
+      }
+    ],
+    "Vadas": [
+      {
+        "@type": "MenuItem",
+        "name": "Medu Vada",
+        "description": "Soft, fluffy lentil doughnuts, golden fried to perfection. Served with sambar and chutney for a light yet filling snack.",
+        "offers": {
+          "@type": "Offer",
+          "price": "4.95",
+          "priceCurrency": "GBP"
+        }
+      },
+      {
+        "@type": "MenuItem",
+        "name": "Sambar Vada",
+        "description": "Crispy medu vadas soaked in flavorful sambar, making every bite soaked with savoury, tangy goodness.",
+        "offers": {
+          "@type": "Offer",
+          "price": "5.45",
+          "priceCurrency": "GBP"
+        }
+      },
+      {
+        "@type": "MenuItem",
+        "name": "Agrawala Special Dahi Vada",
+        "description": "Soft vadas drenched in cool yoghurt, garnished with sweet and tangy chutneys and a sprinkle of spices.",
+        "offers": {
+          "@type": "Offer",
+          "price": "6.45",
+          "priceCurrency": "GBP"
+        }
+      },
+      {
+        "@type": "MenuItem",
+        "name": "Rasam Vada",
+        "description": "Light and crispy vadas, served in a tangy, spicy rasam broth, offering a comforting and flavorful dish.",
+        "offers": {
+          "@type": "Offer",
+          "price": "4.95",
+          "priceCurrency": "GBP"
+        }
+      }
+    ],
+    "Uttapams": [
+      {
+        "@type": "MenuItem",
+        "name": "Onion Uttapam",
+        "description": "A soft, savoury rice pancake topped with sweet caramelised onions. Served with sambar and chutneys.",
+        "offers": {
+          "@type": "Offer",
+          "price": "6.95",
+          "priceCurrency": "GBP"
+        }
+      },
+      {
+        "@type": "MenuItem",
+        "name": "Onion and Tomato Uttapam",
+        "description": "Topped with onions and juicy tomatoes, this uttapam offers a delicious combination of flavors.",
+        "offers": {
+          "@type": "Offer",
+          "price": "6.95",
+          "priceCurrency": "GBP"
+        }
+      },
+      {
+        "@type": "MenuItem",
+        "name": "Onion, Tomato and Chilli Uttapam",
+        "description": "A flavorful pancake topped with onions, tomatoes and fresh green chilies for a spicy kick.",
+        "offers": {
+          "@type": "Offer",
+          "price": "6.95",
+          "priceCurrency": "GBP"
+        }
+      },
+      {
+        "@type": "MenuItem",
+        "name": "Guntur Podi Uttapam",
+        "description": "Soft uttapam sprinkled with fiery Guntur podi, delivering a spicy and aromatic punch.",
+        "offers": {
+          "@type": "Offer",
+          "price": "7.95",
+          "priceCurrency": "GBP"
+        }
+      },
+      {
+        "@type": "MenuItem",
+        "name": "Mixed Veg Uttapam",
+        "description": "Loaded with a colourful mix of fresh vegetables, this uttapam is a hearty and wholesome treat.",
+        "offers": {
+          "@type": "Offer",
+          "price": "7.95",
+          "priceCurrency": "GBP"
+        }
+      },
+      {
+        "@type": "MenuItem",
+        "name": "Plain Uttapam",
+        "description": "Thick, fluffy rice pancake cooked to a golden brown with a crispy exterior and soft, spongy center.",
+        "offers": {
+          "@type": "Offer",
+          "price": "6.75",
+          "priceCurrency": "GBP"
+        }
+      },
+      {
+        "@type": "MenuItem",
+        "name": "Schezwan Uttapam",
+        "description": "A fusion creation, this uttapam is topped with spicy schezwan sauce for a bold, tangy twist.",
+        "offers": {
+          "@type": "Offer",
+          "price": "6.95",
+          "priceCurrency": "GBP"
+        }
+      }
+    ],
+    "Indo Chineses": [
+      {
+        "@type": "MenuItem",
+        "name": "Chilly Paneer",
+        "description": "Soft paneer cubes tossed in a fiery blend of Indo Chinese spices, available dry for a crispy bite or wet for a saucy delight.",
+        "offers": {
+          "@type": "Offer",
+          "price": "7.95",
+          "priceCurrency": "GBP"
+        }
+      },
+      {
+        "@type": "MenuItem",
+        "name": "Schezwan Chilli Paneer",
+        "description": "A sizzling combination of paneer and spicy schezwan sauce, perfect for spice enthusiasts.",
+        "offers": {
+          "@type": "Offer",
+          "price": "7.95",
+          "priceCurrency": "GBP"
+        }
+      },
+      {
+        "@type": "MenuItem",
+        "name": "Paneer 65",
+        "description": "Crisp fried paneer chunks coated in a vibrant, tangy sauce, full of South Indian flavours.",
+        "offers": {
+          "@type": "Offer",
+          "price": "7.95",
+          "priceCurrency": "GBP"
+        }
+      },
+      {
+        "@type": "MenuItem",
+        "name": "Veg Manchurian",
+        "description": "Tender vegetable dumplings in a rich, tangy sauce, a street style favorite with bold flavors.",
+        "offers": {
+          "@type": "Offer",
+          "price": "7.95",
+          "priceCurrency": "GBP"
+        }
+      },
+      {
+        "@type": "MenuItem",
+        "name": "Gobi Manchurian",
+        "description": "Crispy cauliflower in a tangy manchurian sauce, offering a delightful combination of sweet and spicy notes.",
+        "offers": {
+          "@type": "Offer",
+          "price": "7.95",
+          "priceCurrency": "GBP"
+        }
+      },
+      {
+        "@type": "MenuItem",
+        "name": "Veg Fried Rice",
+        "description": "Fluffy basmati rice stir fried with fresh vegetables and aromatic spices, a perfect accompaniment to any dish.",
+        "offers": {
+          "@type": "Offer",
+          "price": "7.95",
+          "priceCurrency": "GBP"
+        }
+      },
+      {
+        "@type": "MenuItem",
+        "name": "Veg Noodles",
+        "description": "Stir fried noodles loaded with fresh vegetables, tossed in a savoury sauce for a deliciously satisfying dish.",
+        "offers": {
+          "@type": "Offer",
+          "price": "7.95",
+          "priceCurrency": "GBP"
+        }
+      },
+      {
+        "@type": "MenuItem",
+        "name": "Veg Hakka Noodles",
+        "description": "Noodles stir fried with veggies, offering a perfect balance of crunch and flavour.",
+        "offers": {
+          "@type": "Offer",
+          "price": "7.95",
+          "priceCurrency": "GBP"
+        }
+      },
+      {
+        "@type": "MenuItem",
+        "name": "Schezwan Hakka Noodles",
+        "description": "A spicy and zesty version of hakka noodles with schezwan sauce, adding bold flavors to this classic.",
+        "offers": {
+          "@type": "Offer",
+          "price": "8.45",
+          "priceCurrency": "GBP"
+        }
+      },
+      {
+        "@type": "MenuItem",
+        "name": "Gobi 65",
+        "description": "Crispy cauliflower florets tossed in a bold, spicy coating, an irresistible Indo Chinese treat.",
+        "offers": {
+          "@type": "Offer",
+          "price": "7.95",
+          "priceCurrency": "GBP"
+        }
+      },
+      {
+        "@type": "MenuItem",
+        "name": "Schezwan Veg Fried Rice",
+        "description": "Veg fried rice with an extra kick of spicy schezwan sauce, giving it a bold and flavorful twist.",
+        "offers": {
+          "@type": "Offer",
+          "price": "8.45",
+          "priceCurrency": "GBP"
+        }
+      }
+    ],
+    "Classic Curries": [
+      {
+        "@type": "MenuItem",
+        "name": "Tadka Dal Curry",
+        "description": "A comforting bowl of yellow lentils, tempered with aromatic spices, garlic, and ghee, offering a burst of flavour in every spoonful.",
+        "offers": {
+          "@type": "Offer",
+          "price": "5.95",
+          "priceCurrency": "GBP"
+        }
+      },
+      {
+        "@type": "MenuItem",
+        "name": "Dal Makhani Curry",
+        "description": "Rich and creamy black lentils slow cooked with butter and spices, a quintessential North Indian comfort food.",
+        "offers": {
+          "@type": "Offer",
+          "price": "6.75",
+          "priceCurrency": "GBP"
+        }
+      },
+      {
+        "@type": "MenuItem",
+        "name": "Paneer Butter Masala Curry",
+        "description": "Soft paneer cubes simmered in a luscious tomato and butter gravy, creamy and mildly spiced.",
+        "offers": {
+          "@type": "Offer",
+          "price": "7.45",
+          "priceCurrency": "GBP"
+        }
+      },
+      {
+        "@type": "MenuItem",
+        "name": "Paneer Tikka Masala Curry",
+        "description": "A rich, tomato based curry with a blend of spices and marinated paneer or vegetables, offering a burst of flavours in every bite.",
+        "offers": {
+          "@type": "Offer",
+          "price": "7.45",
+          "priceCurrency": "GBP"
+        }
+      },
+      {
+        "@type": "MenuItem",
+        "name": "Punjabi Choley Curry",
+        "description": "Spicy, tangy chickpeas cooked in a robust tomato gravy.",
+        "offers": {
+          "@type": "Offer",
+          "price": "6.75",
+          "priceCurrency": "GBP"
+        }
+      },
+      {
+        "@type": "MenuItem",
+        "name": "Palak Paneer Curry",
+        "description": "Tender cubes of paneer simmered in a creamy spinach gravy, offering a nutritious and flavorful experience.",
+        "offers": {
+          "@type": "Offer",
+          "price": "6.75",
+          "priceCurrency": "GBP"
+        }
+      },
+      {
+        "@type": "MenuItem",
+        "name": "Soya Butter Masala Curry",
+        "description": "Tender soya chunks cooked in a creamy butter masala, blending mild sweetness with a spicy finish.",
+        "offers": {
+          "@type": "Offer",
+          "price": "7.45",
+          "priceCurrency": "GBP"
+        }
+      },
+      {
+        "@type": "MenuItem",
+        "name": "Soya Tikka Masala Curry",
+        "description": "Marinated soya chunks grilled and cooked in a spiced, tangy tikka masala sauce for a bold, hearty dish.",
+        "offers": {
+          "@type": "Offer",
+          "price": "7.45",
+          "priceCurrency": "GBP"
+        }
+      },
+      {
+        "@type": "MenuItem",
+        "name": "Mixed Veg Kurma Curry",
+        "description": "A creamy, spiced curry loaded with mixed vegetables, cooked to perfection in a coconut based gravy.",
+        "offers": {
+          "@type": "Offer",
+          "price": "6.75",
+          "priceCurrency": "GBP"
+        }
+      },
+      {
+        "@type": "MenuItem",
+        "name": "Soya Masala Curry",
+        "description": "Soft soya chunks simmered in a flavorful masala gravy, rich in protein and spice.",
+        "offers": {
+          "@type": "Offer",
+          "price": "7.45",
+          "priceCurrency": "GBP"
+        }
+      }
+    ],
+    "Naans": [
+      {
+        "@type": "MenuItem",
+        "name": "Plain Naan",
+        "description": "Soft and fluffy traditional Indian flatbread, perfect for mopping up curries.",
+        "offers": {
+          "@type": "Offer",
+          "price": "1.95",
+          "priceCurrency": "GBP"
+        }
+      },
+      {
+        "@type": "MenuItem",
+        "name": "Butter Naan",
+        "description": "A rich, buttery naan with a light crisp, adding extra indulgence to any meal.",
+        "offers": {
+          "@type": "Offer",
+          "price": "2.45",
+          "priceCurrency": "GBP"
+        }
+      },
+      {
+        "@type": "MenuItem",
+        "name": "Garlic Naan",
+        "description": "Naan infused with fresh garlic and herbs, offering an aromatic and flavorful bite.",
+        "offers": {
+          "@type": "Offer",
+          "price": "2.95",
+          "priceCurrency": "GBP"
+        }
+      },
+      {
+        "@type": "MenuItem",
+        "name": "Chilli Garlic Naan",
+        "description": "A spicy twist on the classic garlic naan, with chilli flakes for a subtle heat boost.",
+        "offers": {
+          "@type": "Offer",
+          "price": "3.45",
+          "priceCurrency": "GBP"
+        }
+      }
+    ],
+    "Parathas": [
+      {
+        "@type": "MenuItem",
+        "name": "Malabar Parathas (2 pieces)",
+        "description": "Flaky, layered flatbread, crisp on the outside and soft inside, perfect for pairing with rich curries.",
+        "offers": {
+          "@type": "Offer",
+          "price": "4.95",
+          "priceCurrency": "GBP"
+        }
+      },
+      {
+        "@type": "MenuItem",
+        "name": "Aloo Parathas (2 pieces)",
+        "description": "Whole wheat flatbread stuffed with spiced mashed potatoes, cooked until golden. Served with butter or yoghurt.",
+        "offers": {
+          "@type": "Offer",
+          "price": "4.95",
+          "priceCurrency": "GBP"
+        }
+      },
+      {
+        "@type": "MenuItem",
+        "name": "Gobi Parathas (2 pieces)",
+        "description": "A delicious flatbread filled with spiced grated cauliflower, offering a flavorful and hearty bite.",
+        "offers": {
+          "@type": "Offer",
+          "price": "4.95",
+          "priceCurrency": "GBP"
+        }
+      }
+    ],
+    "Rice": [
+      {
+        "@type": "MenuItem",
+        "name": "Plain Rice",
+        "description": "Steamed basmati rice, fluffy and aromatic, an ideal base for curries.",
+        "offers": {
+          "@type": "Offer",
+          "price": "3.45",
+          "priceCurrency": "GBP"
+        }
+      },
+      {
+        "@type": "MenuItem",
+        "name": "Jeera Rice",
+        "description": "Basmati rice lightly seasoned with cumin seeds, adding warmth and aroma to the dish.",
+        "offers": {
+          "@type": "Offer",
+          "price": "4.45",
+          "priceCurrency": "GBP"
+        }
+      },
+      {
+        "@type": "MenuItem",
+        "name": "Veg Biryani",
+        "description": "Fragrant basmati rice cooked with mixed vegetables and aromatic spices. Served with cooling raita for a wholesome and satisfying meal.",
+        "offers": {
+          "@type": "Offer",
+          "price": "5.95",
+          "priceCurrency": "GBP"
+        }
+      },
+      {
+        "@type": "MenuItem",
+        "name": "Curd Rice",
+        "description": "Creamy yoghurt rice, delicately seasoned with spices, a cooling and comforting South Indian staple.",
+        "offers": {
+          "@type": "Offer",
+          "price": "5.95",
+          "priceCurrency": "GBP"
+        }
+      }
+    ],
+    "Lassis": [
+      {
+        "@type": "MenuItem",
+        "name": "Sweet Lassi",
+        "description": "A creamy, thick yoghurt drink, lightly sweetened for a refreshing and cooling sip.",
+        "offers": {
+          "@type": "Offer",
+          "price": "3.95",
+          "priceCurrency": "GBP"
+        }
+      },
+      {
+        "@type": "MenuItem",
+        "name": "Mango Lassi",
+        "description": "A tropical twist on the classic lassi, made with ripe mangoes blended into creamy yoghurt for a smooth, fruity drink.",
+        "offers": {
+          "@type": "Offer",
+          "price": "4.45",
+          "priceCurrency": "GBP"
+        }
+      },
+      {
+        "@type": "MenuItem",
+        "name": "Dry Fruit Lassi",
+        "description": "A rich and nutritious lassi loaded with finely chopped nuts and dry fruits, adding extra flavour and texture.",
+        "offers": {
+          "@type": "Offer",
+          "price": "5.45",
+          "priceCurrency": "GBP"
+        }
+      },
+      {
+        "@type": "MenuItem",
+        "name": "Agrawala Special Lassi",
+        "description": "A signature lassi made with a special blend of yoghurt, spices and dry fruits for a unique and indulgent treat.",
+        "offers": {
+          "@type": "Offer",
+          "price": "5.95",
+          "priceCurrency": "GBP"
+        }
+      }
+    ],
+    "Agrawala Special Desserts": [
+      {
+        "@type": "MenuItem",
+        "name": "Kheer",
+        "description": "Creamy, slow cooked rice pudding infused with cardamom and topped with dry fruits, offering a sweet, comforting finish to any meal.",
+        "offers": {
+          "@type": "Offer",
+          "price": "3.95",
+          "priceCurrency": "GBP"
+        }
+      },
+      {
+        "@type": "MenuItem",
+        "name": "Gulab Jamun",
+        "description": "Soft, deep fried dough balls soaked in sugar syrup, flavoured with cardamom and rose water, a classic Indian sweet treat.",
+        "offers": {
+          "@type": "Offer",
+          "price": "3.95",
+          "priceCurrency": "GBP"
+        }
+      },
+      {
+        "@type": "MenuItem",
+        "name": "Rasmalai",
+        "description": "Delicate, spongy cheese dumplings soaked in a rich, creamy saffron milk, topped with pistachios for a decadent dessert.",
+        "offers": {
+          "@type": "Offer",
+          "price": "4.95",
+          "priceCurrency": "GBP"
+        }
+      },
+      {
+        "@type": "MenuItem",
+        "name": "Gajar Halwa",
+        "description": "Warm, rich and fragrant carrot pudding cooked with milk, ghee, and nuts, offering a delightful and sweet finish.",
+        "offers": {
+          "@type": "Offer",
+          "price": "4.95",
+          "priceCurrency": "GBP"
+        }
+      }
+    ],
+    "Teas and Coffees": [
+      {
+        "@type": "MenuItem",
+        "name": "Masala Tea",
+        "description": "A traditional spiced tea brewed with a blend of aromatic Indian spices, delivering warmth and comfort in every sip.",
+        "offers": {
+          "@type": "Offer",
+          "price": "1.95",
+          "priceCurrency": "GBP"
+        }
+      },
+      {
+        "@type": "MenuItem",
+        "name": "Madras Coffee",
+        "description": "South Indian style strong filter coffee, brewed with freshly ground beans. Served frothy for an authentic experience.",
+        "offers": {
+          "@type": "Offer",
+          "price": "2.95",
+          "priceCurrency": "GBP"
+        }
+      },
+      {
+        "@type": "MenuItem",
+        "name": "Agrawala Special Badam Milk",
+        "description": "Warm, creamy milk flavoured with crushed almonds and a hint of saffron, offering a rich and nutritious drink.",
+        "offers": {
+          "@type": "Offer",
+          "price": "4.99",
+          "priceCurrency": "GBP"
+        }
+      }
+    ],
+    "Kids Menu": [
+      {
+        "@type": "MenuItem",
+        "name": "Chocolate Dosa",
+        "description": "A fun twist on the classic dosa, drizzled with chocolate sauce, perfect for kids with a sweet tooth.",
+        "offers": {
+          "@type": "Offer",
+          "price": "5.95",
+          "priceCurrency": "GBP"
+        }
+      },
+      {
+        "@type": "MenuItem",
+        "name": "Sambar Idly",
+        "description": "Soft idlis, served with tangy sambar, a light yet flavorful meal for the little ones.",
+        "offers": {
+          "@type": "Offer",
+          "price": "4.75",
+          "priceCurrency": "GBP"
+        }
+      },
+      {
+        "@type": "MenuItem",
+        "name": "Ghee Idly",
+        "description": "Fluffy idlis drizzled with aromatic ghee, offering a buttery and comforting taste for kids.",
+        "offers": {
+          "@type": "Offer",
+          "price": "6.00",
+          "priceCurrency": "GBP"
+        }
+      }
+    ],
+    "Drinks": [
+      {
+        "@type": "MenuItem",
+        "name": "Chhachh (Buttermilk)",
+        "description": "A cool and tangy buttermilk drink, spiced lightly with cumin and herbs for a refreshing accompaniment to your meal.",
+        "offers": {
+          "@type": "Offer",
+          "price": "3.45",
+          "priceCurrency": "GBP"
+        }
+      },
+      {
+        "@type": "MenuItem",
+        "name": "Soft Drinks",
+        "description": "Refresh yourself with a range of soft drinks, perfect to pair with any meal.",
+        "offers": {
+          "@type": "Offer",
+          "price": "1.95",
+          "priceCurrency": "GBP"
+        }
+      },
+      {
+        "@type": "MenuItem",
+        "name": "Thumbs Up",
+        "description": "Enjoy these iconic Indian fizzy drinks, offering a nostalgic burst of flavours.",
+        "offers": {
+          "@type": "Offer",
+          "price": "1.95",
+          "priceCurrency": "GBP"
+        }
+      },
+      {
+        "@type": "MenuItem",
+        "name": "Limca",
+        "description": "Enjoy these iconic Indian fizzy drinks, offering a nostalgic burst of flavours.",
+        "offers": {
+          "@type": "Offer",
+          "price": "1.95",
+          "priceCurrency": "GBP"
+        }
+      },
+      {
+        "@type": "MenuItem",
+        "name": "Jeera Soda",
+        "description": "Enjoy these iconic Indian fizzy drinks, offering a nostalgic burst of flavours.",
+        "offers": {
+          "@type": "Offer",
+          "price": "1.95",
+          "priceCurrency": "GBP"
+        }
+      },
+      {
+        "@type": "MenuItem",
+        "name": "Fresh Lime Soda",
+        "description": "A zesty and refreshing drink made with freshly squeezed lime, soda, and your choice of sweet or salty flavour.",
+        "offers": {
+          "@type": "Offer",
+          "price": "3.45",
+          "priceCurrency": "GBP"
+        }
+      }
+    ]
+  }
+}

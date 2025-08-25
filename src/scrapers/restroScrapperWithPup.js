@@ -1,7 +1,5 @@
 import 'dotenv/config';
-import fs from 'fs-extra';
-import path from 'path';
-import { fileURLToPath } from 'url';
+import { saveToFile } from '../utils/file-handler.js';
 import puppeteer from 'puppeteer-extra';
 import StealthPlugin from 'puppeteer-extra-plugin-stealth';
 
@@ -25,8 +23,91 @@ async function detectShadowDOM(page) {
 
 puppeteer.use(StealthPlugin());
 
-const __filename = fileURLToPath(import.meta.url);
-const __dirname = path.dirname(__filename);
+// /**
+//  * Normalizes restaurant data into a consistent structure
+//  * @param {Object} data - The raw restaurant data from the scraper
+//  * @returns {Object} Normalized restaurant data
+//  */
+function normalizeRestaurantData(data) {
+    const raw = data.restaurantInfo.raw || {};
+
+    // Process menu sections
+    const processMenuSections = (sections) => {
+        if (!sections || !Array.isArray(sections)) {
+            return {
+                "@type": "Menu",
+                "menu_sections": [],
+                ...Object.fromEntries(sections || [])
+            };
+        }
+
+        const menuData = {
+            "@type": "Menu",
+            "menu_sections": sections.map(section => section.name).filter(Boolean)
+        };
+
+        // Add each section's items under its name
+        sections.forEach(section => {
+            if (section.name && Array.isArray(section.hasMenuItem)) {
+                menuData[section.name] = section.hasMenuItem.map(item => ({
+                    "@type": "MenuItem",
+                    "name": item.name || "",
+                    "description": item.description || "",
+                    "offers": {
+                        "@type": "Offer",
+                        "price": item.offers?.price || "0",
+                        "priceCurrency": item.offers?.priceCurrency || "GBP"
+                    }
+                }));
+            }
+        });
+
+        return menuData;
+    };
+
+    // Create normalized structure
+    const normalized = {
+        "@type": raw["@type"] || "Restaurant",
+        "@id": raw["@id"] || "",
+        "name": raw.name || data.restaurantInfo.name || "",
+        "image": Array.isArray(raw.image) ? raw.image : [raw.image].filter(Boolean),
+        "aggregateRating": {
+            "@type": "AggregateRating",
+            "ratingValue": parseFloat(raw.aggregateRating?.ratingValue) || 0,
+            "reviewCount": String(raw.aggregateRating?.reviewCount || "0")
+        },
+        "servesCuisine": Array.isArray(raw.servesCuisine)
+            ? [...new Set(raw.servesCuisine)]
+            : [raw.servesCuisine].filter(Boolean),
+        "geo": {
+            "@type": "GeoCoordinates",
+            "latitude": parseFloat(raw.geo?.latitude) || 0,
+            "longitude": parseFloat(raw.geo?.longitude) || 0
+        },
+        "telephone": raw.telephone || data.restaurantInfo.telephone || "",
+        "openingHoursSpecification": raw.openingHoursSpecification || data.restaurantInfo.openingHours || [],
+        "hasMenu": processMenuSections(raw.hasMenu?.hasMenuSection || [])
+    };
+
+    return normalized;
+}
+
+/**
+ * Saves normalized data to a file with timestamp
+ * @param {Object} data - The data to save
+ * @param {string} originalPath - Path of the original file
+ */
+async function saveNormalizedData(data) {
+    try {
+        // Create normalized data
+        const normalizedData = normalizeRestaurantData(data);
+        const newFilename = normalizedData.name ? `${normalizedData.name}_puppeter_normalized_${Date.now()}.json` : `puppeter_normalized_${Date.now()}.json`;
+        await saveToFile(newFilename, normalizedData, { json: true })
+    } catch (error) {
+        console.error('Error saving normalized data:', error);
+        throw error;
+    }
+}
 
 function deepFindAll(root, predicate, maxDepth = 6) {
     const found = [];
@@ -145,6 +226,7 @@ async function scrapeWithPuppeteer(url) {
     const jsonResponses = [];
 
     page.on('response', async (res) => {
+
         const ct = res.headers()['content-type'] || '';
         const url = res.url();
         // Heuristics: capture JSON/XHRs which often include store/menu data
@@ -157,7 +239,6 @@ async function scrapeWithPuppeteer(url) {
             url.includes('restaurant');
 
         if (!likely) return;
-
         try {
             const text = await res.text();
             if (!text) return;
@@ -172,21 +253,21 @@ async function scrapeWithPuppeteer(url) {
 
 
     // Before page.goto: install a hook to capture attachShadow (works for open/closed)
-    const hookShadowAttach = () => {
-        const seen = [];
-        const orig = Element.prototype.attachShadow;
-        Element.prototype.attachShadow = function (init) {
-            try { seen.push({ tag: this.tagName.toLowerCase(), mode: (init && init.mode) || 'open' }); } catch { }
-            return orig.call(this, init);
-        };
-        // expose for later read
-        window.__shadowAttachEvents = seen;
-    };
-    if (typeof page.addInitScript === 'function') {
-        await page.addInitScript(hookShadowAttach);
-    } else if (typeof page.evaluateOnNewDocument === 'function') {
-        await page.evaluateOnNewDocument(hookShadowAttach);
-    }
+    // const hookShadowAttach = () => {
+    //     const seen = [];
+    //     const orig = Element.prototype.attachShadow;
+    //     Element.prototype.attachShadow = function (init) {
+    //         try { seen.push({ tag: this.tagName.toLowerCase(), mode: (init && init.mode) || 'open' }); } catch { }
+    //         return orig.call(this, init);
+    //     };
+    //     // expose for later read
+    //     window.__shadowAttachEvents = seen;
+    // };
+    // if (typeof page.addInitScript === 'function') {
+    //     await page.addInitScript(hookShadowAttach);
+    // } else if (typeof page.evaluateOnNewDocument === 'function') {
+    //     await page.evaluateOnNewDocument(hookShadowAttach);
+    // }
 
     await page.goto(url, { waitUntil: ['domcontentloaded', 'networkidle2'], timeout: 90000 });
 
@@ -288,13 +369,11 @@ async function main() {
     console.log('[puppeter] Restaurant:', out.restaurantInfo?.name || '(unknown)');
     console.log('[puppeter] Menu items found:', out.menuItems.length);
     console.log('[puppeter] Debug:', out.debug);
-
-    const outDir = path.join(__dirname, '..', 'data', 'output');
-    await fs.ensureDir(outDir);
-    const ts = new Date().toISOString().replace(/[:.]/g, '-');
-    const file = path.join(outDir, `puppeter_${ts}.json`);
-    await fs.writeJson(file, out, { spaces: 2 });
-    console.log('[puppeter] Saved:', file);
+    try {
+        await saveNormalizedData(out);
+    } catch (error) {
+        console.error('Could not save normalized data:', error);
+    }
     console.log('[puppeter] Done in', Math.round((Date.now() - started) / 1000), 's');
 }
 

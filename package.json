@@ -7,7 +7,8 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "scrape": "node src/main.js",
-    "puppeter": "node src/puppeter.js"
+    "puppeter": "node src/scrapers/puppeter.js",
+    "mainPageScrape": "node src/scrapers/mainPageScrapper.js"
   },
   "repository": {
     "type": "git",

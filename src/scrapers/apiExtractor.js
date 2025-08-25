@@ -13,6 +13,7 @@ function collectAppJson($) {
     $('script[type="application/json"]').each((_, el) => {
         const id = $(el).attr('id') || null;
         const raw = $(el).html() || '';
+        console.log("raw",raw)
         if (!raw.trim()) return;
         try { out.push({ id, data: JSON.parse(raw) }); } catch { }
     });
@@ -223,11 +224,11 @@ function extractMenuFromCandidates(jsonld, appJson) {
     // }
     
     for (const blob of appJson) {//it gives uuid and session details
-        console.log("blob",blob, "\n")
+        // console.log("blob",blob, "\n")
         const found = deepFindAll(blob.data, o => o?.hasMenu?.hasMenuSection, 1);
-        console.log(" found", found)
+        // console.log(" found", found)
         if (found.length) {
-            console.log("found",found)
+            // console.log("found",found)
             return {
                 menuMap: buildMenuMapFromRestaurant(found[0]),
                 menuItems: buildMenuItemsFlatFromRestaurant(found[0]),
@@ -249,6 +250,7 @@ export function extractUberEatsStore(html) {
             const obj = JSON.parse(raw);
             const list = Array.isArray(obj) ? obj : [obj];
             for (const c of list) {
+                // console.log("c",c)
                 const types = toArray(c['@type']);
                 if (types.includes('Restaurant')) { jsonld = c; return false; }
             }
