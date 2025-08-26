@@ -1,0 +1,816 @@
+[
+  {
+    "name": "Iceland",
+    "rating": "4.2",
+    "reviewCount": "2,000+",
+    "deliveryTime": "10 min",
+    "offers": [
+      "Save on Select Items"
+    ],
+    "url": "https://www.ubereats.com/store/iceland-southall/Bdh2zWWRVDSUfUzyWcVKcw"
+  },
+  {
+    "name": "Sainsbury's Supermarket",
+    "rating": "3.9",
+    "reviewCount": "2,000+",
+    "deliveryTime": "52 min",
+    "offers": [
+      "Offers available"
+    ],
+    "url": "https://www.ubereats.com/store/sainsburys-supermarket-hayes/QOxgtes0Um2IS7oNNoUucw"
+  },
+  {
+    "name": "Subway",
+    "rating": "4.4",
+    "reviewCount": "1,500+",
+    "deliveryTime": "10 min",
+    "url": "https://www.ubereats.com/store/subway-16-high-street/s-9PhxjFQJ6uDS-5sO99tA"
+  },
+  {
+    "name": "Co-op",
+    "rating": "4.6",
+    "reviewCount": "3,000+",
+    "deliveryTime": "In-store prices",
+    "offers": [
+      "Save on Select Items",
+      "In-store prices"
+    ],
+    "url": "https://www.ubereats.com/store/co-op-hanwell/T8_JlFWGXe-AE1Nlw-8xoA"
+  },
+  {
+    "name": "Pepe's Piri Piri",
+    "rating": "4.1",
+    "reviewCount": "5,000+",
+    "deliveryTime": "10 min",
+    "url": "https://www.ubereats.com/store/pepes-piri-piri-southall/musnqUIlQcmU3O9XeEvPsQ"
+  },
+  {
+    "name": "New Delhiwala",
+    "rating": "4.3",
+    "reviewCount": "4,000+",
+    "deliveryTime": "12 min",
+    "url": "https://www.ubereats.com/store/new-delhiwala/MExyebsoTjCD8zAnak7JrQ"
+  },
+  {
+    "name": "Saravanaa Bhavan",
+    "rating": "4.1",
+    "reviewCount": "7,000+",
+    "deliveryTime": "10 min",
+    "url": "https://www.ubereats.com/store/saravanaa-bhavan-southall/gd5ZDoH-S7O9M7YvWyX_yQ"
+  },
+  {
+    "name": "Chaiiwala",
+    "rating": "4.4",
+    "reviewCount": "5,000+",
+    "deliveryTime": "10 min",
+    "offers": [
+      "3 Offers Available"
+    ],
+    "url": "https://www.ubereats.com/store/chaiiwala-southall/ka4H3sMWQs-YxY2roVDpZA"
+  },
+  {
+    "name": "ASDA",
+    "rating": "4.1",
+    "reviewCount": "5,000+",
+    "deliveryTime": "In-store prices",
+    "offers": [
+      "Save on Select Items",
+      "In-store prices"
+    ],
+    "url": "https://www.ubereats.com/store/asda-hayes/WOH4fByhTx-G9ny9ytMtdQ"
+  },
+  {
+    "name": "Greggs",
+    "rating": "4.5",
+    "reviewCount": "500+",
+    "deliveryTime": "17 min",
+    "url": "https://www.ubereats.com/store/greggs-greenford-16-the-broadway/-bhVJ0rFXFisQyK8NIxtSw"
+  },
+  {
+    "name": "Popeyes",
+    "rating": "3.9",
+    "reviewCount": "700+",
+    "deliveryTime": "25 min",
+    "offers": [
+      "Free Item (Spend £15)"
+    ],
+    "url": "https://www.ubereats.com/store/popeyes-hounslow/gmg9K2TrVK-3kMXCb3NCIw"
+  },
+  {
+    "name": "GDK",
+    "rating": "4.2",
+    "reviewCount": "5,000+",
+    "deliveryTime": "11 min",
+    "offers": [
+      "3 Offers Available"
+    ],
+    "url": "https://www.ubereats.com/store/gdk-greenford/lS50peA6XKyAIW6bB7g8VQ"
+  },
+  {
+    "name": "Asda Express",
+    "rating": "4.7",
+    "reviewCount": "81",
+    "deliveryTime": "10 min",
+    "offers": [
+      "Save on Select Items"
+    ],
+    "url": "https://www.ubereats.com/store/asda-express-heston/cVDciQJCUXi7deXRvliMMw"
+  },
+  {
+    "name": "Starbucks ®",
+    "rating": "4.5",
+    "reviewCount": "3,000+",
+    "deliveryTime": "10 min",
+    "url": "https://www.ubereats.com/store/starbucks-yeading-dt/QFEZeiisRIun5rpNe5oplA"
+  },
+  {
+    "name": "London Doner Kebab",
+    "rating": "4.6",
+    "reviewCount": "5,000+",
+    "deliveryTime": "10 min",
+    "offers": [
+      "2 Offers Available"
+    ],
+    "url": "https://www.ubereats.com/store/london-doner-kebab/lqiANdz0ToqmZmnnBua3-g"
+  },
+  {
+    "name": "Five Guys",
+    "rating": "4.2",
+    "reviewCount": "2,000+",
+    "deliveryTime": "27 min",
+    "url": "https://www.ubereats.com/store/five-guys-burgers-fries-%26-shakes-ealing/_eJl_w7EUPOxn29CrTnawg"
+  },
+  {
+    "name": "Roosters Piri Piri",
+    "rating": "4.4",
+    "reviewCount": "6,000+",
+    "deliveryTime": "13 min",
+    "url": "https://www.ubereats.com/store/roosters-piri-piri-lady-margaret-road/qOF6QF7jR8Kvp2_aZPXLiw"
+  },
+  {
+    "name": "Chicken Cottage",
+    "rating": "4.3",
+    "reviewCount": "4,000+",
+    "deliveryTime": "10 min",
+    "offers": [
+      "Free Item (Spend £20)"
+    ],
+    "url": "https://www.ubereats.com/store/chicken-cottage-southall/0i0uggoOR0eUb2v-MZuFTg"
+  },
+  {
+    "name": "Sam's Chicken",
+    "rating": "4.2",
+    "reviewCount": "1,500+",
+    "deliveryTime": "10 min",
+    "offers": [
+      "Buy 1, Get 1 Free"
+    ],
+    "url": "https://www.ubereats.com/store/sams-chicken-southall/1Lj8e4QMXs-9ydOtz32xew"
+  },
+  {
+    "name": "Zoom by Ocado",
+    "rating": "4.5",
+    "reviewCount": "2,000+",
+    "deliveryTime": "39 min",
+    "url": "https://www.ubereats.com/store/zoom-by-ocado-acton/xGPKHFFsW9a1ZOc3l1K4XQ"
+  },
+  {
+    "name": "Chick Filler",
+    "rating": "4.3",
+    "reviewCount": "4,000+",
+    "deliveryTime": "10 min",
+    "offers": [
+      "2 Offers Available"
+    ],
+    "url": "https://www.ubereats.com/store/chick-filler-southall/SO4cyTU6RnKiELrcNoZ6wA"
+  },
+  {
+    "name": "Wenzel's the Bakers",
+    "rating": "4.4",
+    "reviewCount": "1,000+",
+    "deliveryTime": "12 min",
+    "url": "https://www.ubereats.com/store/wenzels-the-bakers-hanwell/dRhKddgBTc2ocRaeM7Iqlw"
+  },
+  {
+    "name": "Gopuff Groceries",
+    "rating": "4.7",
+    "reviewCount": "3,000+",
+    "deliveryTime": "21 min",
+    "offers": [
+      "2 Offers Available"
+    ],
+    "url": "https://www.ubereats.com/store/gopuff-groceries-twickenham/YnHwaJGDUM6NqAcWHsfiuQ"
+  },
+  {
+    "name": "Naan Staap",
+    "rating": "4.3",
+    "reviewCount": "350+",
+    "deliveryTime": "10 min",
+    "offers": [
+      "30% off (Spend £15)"
+    ],
+    "url": "https://www.ubereats.com/store/naan-staap-southall/xpcX1nudViqlIoLqhK5PBQ"
+  },
+  {
+    "name": "Londis",
+    "rating": "4.6",
+    "reviewCount": "600+",
+    "deliveryTime": "10 min",
+    "offers": [
+      "3 Offers Available"
+    ],
+    "url": "https://www.ubereats.com/store/londis-southall/FHeXqH-sTlWs8voqDg95mw"
+  },
+  {
+    "name": "Haweli Restaurant ® Southall",
+    "rating": "4.2",
+    "reviewCount": "700+",
+    "deliveryTime": "10 min",
+    "offers": [
+      "Buy 1, Get 1 Free"
+    ],
+    "url": "https://www.ubereats.com/store/haweli-restaurant-southall/aWw2wCFiR06upnwlu05b2w"
+  },
+  {
+    "name": "Burger Shack",
+    "rating": "4.2",
+    "reviewCount": "2,000+",
+    "deliveryTime": "10 min",
+    "offers": [
+      "2 Offers Available"
+    ],
+    "url": "https://www.ubereats.com/store/burger-shack-southall/2oOX7VwBT5CCalFyLRpJTw"
+  },
+  {
+    "name": "Waitrose & Partners",
+    "rating": "4.3",
+    "reviewCount": "5,000+",
+    "deliveryTime": "34 min",
+    "offers": [
+      "Offers available"
+    ],
+    "url": "https://www.ubereats.com/store/waitrose-%26-partners-west-ealing/QawzJ0tHV5C4GevnDiRevw"
+  },
+  {
+    "name": "Ole & Steen",
+    "rating": "3.7",
+    "reviewCount": "180+",
+    "deliveryTime": "36 min",
+    "url": "https://www.ubereats.com/store/ole-%26-steen-richmond/4GUbevVKXi-kFqgitmecLA"
+  },
+  {
+    "name": "Rita's Chilli Chaat Corner",
+    "rating": "4.1",
+    "reviewCount": "800+",
+    "deliveryTime": "19 min",
+    "url": "https://www.ubereats.com/store/ritas-chilli-chaat-corner/-Hu0QxzCVqui7wEjIqFREg"
+  },
+  {
+    "name": "Apna Pind",
+    "rating": "4.2",
+    "reviewCount": "1,000+",
+    "deliveryTime": "17 min",
+    "url": "https://www.ubereats.com/store/apna-pind/7yyH35uIRt-zbsaKViM9EQ"
+  },
+  {
+    "name": "CakeCo",
+    "rating": "4.0",
+    "reviewCount": "500+",
+    "deliveryTime": "10 min",
+    "offers": [
+      "£0 Delivery Fee (Spend £15)"
+    ],
+    "url": "https://www.ubereats.com/store/cakeco-southall/5hbIacJLR4C1qOmQTsXquQ"
+  },
+  {
+    "name": "Shahi Naan Kebab",
+    "rating": "4.0",
+    "reviewCount": "2,000+",
+    "deliveryTime": "10 min",
+    "url": "https://www.ubereats.com/store/shahi-naan-kebab/sKbJ_qP1S8ycCcM3iKmGRg"
+  },
+  {
+    "name": "Khatta Meetha",
+    "rating": "4.3",
+    "reviewCount": "1,500+",
+    "deliveryTime": "26 min",
+    "url": "https://www.ubereats.com/store/khatta-meetha/zNd4FM0DTL-bRN0NgwtI4w"
+  },
+  {
+    "name": "Boots",
+    "rating": "4.6",
+    "reviewCount": "310+",
+    "deliveryTime": "29 min",
+    "offers": [
+      "Offers available"
+    ],
+    "url": "https://www.ubereats.com/store/boots-hounslow-high-st/M_GQ0kOQUXWItGs7NtoMDg"
+  },
+  {
+    "name": "Shree Krishna Vada Pav",
+    "rating": "3.8",
+    "reviewCount": "180+",
+    "deliveryTime": "10 min",
+    "offers": [
+      "Buy 1, Get 1 Free"
+    ],
+    "url": "https://www.ubereats.com/store/shree-krishna-vada-pav-skvp-southall/UTxy9TzIS3Opot7uOD8OgQ"
+  },
+  {
+    "name": "Shah’s Halal Food",
+    "rating": "4.5",
+    "reviewCount": "440+",
+    "deliveryTime": "25 min",
+    "url": "https://www.ubereats.com/store/shahs-halal-food/QxK2-HLJVh2m2XYSS0CWxA"
+  },
+  {
+    "name": "Selekt Chicken",
+    "rating": "4.4",
+    "reviewCount": "600+",
+    "deliveryTime": "10 min",
+    "url": "https://www.ubereats.com/store/selekt-chicken-southhall/vWZ5c1jORQuARwuDbEXGoQ"
+  },
+  {
+    "name": "The Maharaja Sweets & Savouries Southall",
+    "rating": "4.2",
+    "reviewCount": "180+",
+    "deliveryTime": "25 min",
+    "offers": [
+      "15% off (Spend £15)"
+    ],
+    "url": "https://www.ubereats.com/store/the-maharaja-sweets-%26-savouries-southall/nGkrbxheR8e7qqepSwA2NQ"
+  },
+  {
+    "name": "Cottage peri peri",
+    "rating": "4.1",
+    "reviewCount": "210+",
+    "deliveryTime": "11 min",
+    "url": "https://www.ubereats.com/store/cottage-peri-peri/erF6W8IcWpa39nTkGzKWJQ"
+  },
+  {
+    "name": "Tanus Kitchen",
+    "rating": "4.2",
+    "reviewCount": "1,000+",
+    "deliveryTime": "11 min",
+    "url": "https://www.ubereats.com/store/tanus-kitchen/hp5mi84XQve0HkG4HA2JAg"
+  },
+  {
+    "name": "Sobe Burger",
+    "rating": "3.7",
+    "reviewCount": "140+",
+    "deliveryTime": "20 min",
+    "url": "https://www.ubereats.com/store/sobe-burger-greenford/2YxUukxwVNa_I0nDC9pEUg"
+  },
+  {
+    "name": "Papa Johns Pizza",
+    "rating": "4.1",
+    "reviewCount": "1,000+",
+    "deliveryTime": "17 min",
+    "offers": [
+      "Top Offer • Save on Select Items"
+    ],
+    "url": "https://www.ubereats.com/store/papa-johns-pizza-hayes/z8OrcWtASVygrBPlKVEZRg"
+  },
+  {
+    "name": "Wendy's",
+    "rating": "4.4",
+    "reviewCount": "2,000+",
+    "deliveryTime": "27 min",
+    "offers": [
+      "20% off (Spend £20)"
+    ],
+    "url": "https://www.ubereats.com/store/wendys-uxbridge/t5TEAJSMUJm5M35f-HCvGA"
+  },
+  {
+    "name": "Moti Mahal",
+    "rating": "4.2",
+    "reviewCount": "500+",
+    "deliveryTime": "10 min",
+    "offers": [
+      "Buy 1, Get 1 Free"
+    ],
+    "url": "https://www.ubereats.com/store/moti-mahal-new/EIlOju6IVOWeg9wdDXzXUw"
+  },
+  {
+    "name": "Shahanshah Vegetarian Restaurant",
+    "rating": "4.4",
+    "reviewCount": "1,000+",
+    "deliveryTime": "15 min",
+    "offers": [
+      "Free Item (Spend £20)"
+    ],
+    "url": "https://www.ubereats.com/store/shahanshah-vegetarian-restaurant/bY_UwG6JThu-eW438UMqIQ"
+  },
+  {
+    "name": "Habb Flatbreads",
+    "rating": "3.9",
+    "reviewCount": "700+",
+    "deliveryTime": "31 min",
+    "offers": [
+      "Top Offer • Buy 1, Get 1 Free"
+    ],
+    "url": "https://www.ubereats.com/store/habb-flatbreads-west-ealing/2ydwVo9FU_iNY8XSJ2HQBA"
+  },
+  {
+    "name": "LEON",
+    "rating": "4.4",
+    "reviewCount": "4,000+",
+    "deliveryTime": "37 min",
+    "url": "https://www.ubereats.com/store/leon-richmond/KSyjRBKfStqs9fgJOv6Now"
+  },
+  {
+    "name": "Costa Coffee",
+    "rating": "2.6",
+    "reviewCount": "36",
+    "deliveryTime": "29 min",
+    "url": "https://www.ubereats.com/store/costa-coffee-heston-moto-east/zDwSWdszUkuNZ8zaePeMVw"
+  },
+  {
+    "name": "Tariq Halal Southall",
+    "rating": "4.4",
+    "reviewCount": "500+",
+    "deliveryTime": "10 min",
+    "offers": [
+      "2 Offers Available"
+    ],
+    "url": "https://www.ubereats.com/store/tariq-halal-southall/ecLIMF6NUYK4UHGisMl6xw"
+  },
+  {
+    "name": "Chaii Master Hayes",
+    "rating": "4.4",
+    "reviewCount": "600+",
+    "deliveryTime": "23 min",
+    "offers": [
+      "Save on Select Items"
+    ],
+    "url": "https://www.ubereats.com/store/chaii-master-hayes/RhH0oEMHTgyaw-Gzm48fow"
+  },
+  {
+    "name": "Karak Chaii",
+    "rating": "3.9",
+    "reviewCount": "600+",
+    "deliveryTime": "10 min",
+    "url": "https://www.ubereats.com/store/karak-chaii-southall/OY70waIAU5eb9kbOppzm_w"
+  },
+  {
+    "name": "MADRAS FLAVOURS",
+    "rating": "4.3",
+    "reviewCount": "2,000+",
+    "deliveryTime": "30 min",
+    "url": "https://www.ubereats.com/store/madras-flavours/CG571YydQBqkoGCb-pJQVQ"
+  },
+  {
+    "name": "Mighty Wings",
+    "rating": "4.0",
+    "reviewCount": "57",
+    "deliveryTime": "10 min",
+    "offers": [
+      "2 Offers Available"
+    ],
+    "url": "https://www.ubereats.com/store/mighty-wings-southall/3gKhksS5VAOzh8sUavC5eQ"
+  },
+  {
+    "name": "Black Sheep Coffee",
+    "rating": "4.1",
+    "reviewCount": "500+",
+    "deliveryTime": "26 min",
+    "url": "https://www.ubereats.com/store/black-sheep-coffee-ealing/riDUj5UtWWmlVOfk1AGkNQ"
+  },
+  {
+    "name": "Red Jalapeno",
+    "rating": "4.1",
+    "reviewCount": "400+",
+    "deliveryTime": "30 min",
+    "offers": [
+      "Top Offer • Buy 1, Get 1 Free"
+    ],
+    "url": "https://www.ubereats.com/store/red-jalapeno-west-ealing/4ZSRrfZ9W1uNZTlfgAmZXg"
+  },
+  {
+    "name": "The Big Bites Cafe",
+    "rating": "4.6",
+    "reviewCount": "310+",
+    "deliveryTime": "10 min",
+    "url": "https://www.ubereats.com/store/the-big-bites-cafe/lAQRqMfDQBK4WofxOhvhXA"
+  },
+  {
+    "name": "Tesco Cafe",
+    "rating": "4.4",
+    "reviewCount": "100+",
+    "deliveryTime": "25 min",
+    "url": "https://www.ubereats.com/store/tesco-cafe-hayes-bulls/_Y9z4pjUUAut0ffm8YCb5w"
+  },
+  {
+    "name": "Morrisons Daily",
+    "rating": "4.5",
+    "reviewCount": "700+",
+    "deliveryTime": "In-store prices",
+    "offers": [
+      "Save on Select Items",
+      "In-store prices"
+    ],
+    "url": "https://www.ubereats.com/store/morrisons-daily-ruislip-whitby-road/PoYxFTcvRNePITTGS9iM0w"
+  },
+  {
+    "name": "Ramad Somali Restaurant",
+    "rating": "3.5",
+    "reviewCount": "46",
+    "deliveryTime": "38 min",
+    "offers": [
+      "10% off (Spend £15)"
+    ],
+    "url": "https://www.ubereats.com/store/ramad-somali-restaurant/_vNlamOHRp-oCcKKTifi_Q"
+  },
+  {
+    "name": "Pizza Pineapple LTD",
+    "rating": "4.5",
+    "reviewCount": "39",
+    "deliveryTime": "35 min",
+    "url": "https://www.ubereats.com/store/pizza-pineapple-ltd/96DQPmONUNS02kaEqVSZgw"
+  },
+  {
+    "name": "Kebab Palace",
+    "rating": "2.5",
+    "reviewCount": "240+",
+    "deliveryTime": "51 min",
+    "offers": [
+      "Top Offer • Buy 1, Get 1 Free"
+    ],
+    "url": "https://www.ubereats.com/store/kebab-palace/vH7HkLNCWzSrxEZLS3RP1g"
+  },
+  {
+    "name": "Najma Restaurant",
+    "rating": "4.1",
+    "reviewCount": "280+",
+    "deliveryTime": "21 min",
+    "url": "https://www.ubereats.com/store/najma-restaurant/65fj8yrwXT-e5tYy91r0Lg"
+  },
+  {
+    "name": "Freshly Smashed",
+    "rating": "3.6",
+    "reviewCount": "52",
+    "deliveryTime": "20 min",
+    "offers": [
+      "Top Offer • Buy 1, Get 1 Free"
+    ],
+    "url": "https://www.ubereats.com/store/freshly-smashed-halal-greenford/ogiQNbMpXqeOYmMceGWTuQ"
+  },
+  {
+    "name": "Taste of Punjab",
+    "rating": "4.5",
+    "reviewCount": "420+",
+    "deliveryTime": "10 min",
+    "url": "https://www.ubereats.com/store/taste-of-punjab/anBXvkPwVnG8M0m6RYtJJQ"
+  },
+  {
+    "name": "Loaded Burgers",
+    "rating": "4.3",
+    "reviewCount": "67",
+    "deliveryTime": "10 min",
+    "offers": [
+      "2 Offers Available"
+    ],
+    "url": "https://www.ubereats.com/store/loaded-burgers-southall/DSe3XGALVWqo9xOaxLsTIA"
+  },
+  {
+    "name": "Crispy's",
+    "rating": "3.5",
+    "reviewCount": "15",
+    "deliveryTime": "10 min",
+    "offers": [
+      "2 Offers Available"
+    ],
+    "url": "https://www.ubereats.com/store/crispys-southall/oXuRmutaVa645KMvaw9B4Q"
+  },
+  {
+    "name": "casa de goa",
+    "rating": "4.3",
+    "reviewCount": "900+",
+    "deliveryTime": "29 min",
+    "url": "https://www.ubereats.com/store/casa-de-goa/hNpsI103SHSjizR1-b1IZA"
+  },
+  {
+    "name": "Tennessee Express",
+    "rating": "4.3",
+    "reviewCount": "3,000+",
+    "deliveryTime": "25 min",
+    "offers": [
+      "Top Offer • Buy 1, Get 1 Free"
+    ],
+    "url": "https://www.ubereats.com/store/tennessee-express/JbwrfKx7Q8CAKKkBjSFOZw"
+  },
+  {
+    "name": "Apna Desh Butchers",
+    "rating": "4.3",
+    "reviewCount": "240+",
+    "deliveryTime": "35 min",
+    "url": "https://www.ubereats.com/store/apna-desh-butchers/Jf8FjDFbQ6epkL5VmGKizg"
+  },
+  {
+    "name": "Sambal Express",
+    "rating": "4.4",
+    "reviewCount": "500+",
+    "deliveryTime": "10 min",
+    "url": "https://www.ubereats.com/store/sambal-express-southall/B7cQx8vfTfiRJT1InunAog"
+  },
+  {
+    "name": "Wingspot",
+    "rating": "3.5",
+    "reviewCount": "28",
+    "deliveryTime": "24 min",
+    "offers": [
+      "Top Offer • Buy 1, Get 1 Free"
+    ],
+    "url": "https://www.ubereats.com/store/wingspot-halal-greenford/Yw4bAFcaU_-D9hIcjR0ghw"
+  },
+  {
+    "name": "Hayes Spice",
+    "rating": "4.3",
+    "reviewCount": "800+",
+    "deliveryTime": "29 min",
+    "url": "https://www.ubereats.com/store/hayes-spice/5uVKkctAUrW2NZ3JkMOScQ"
+  },
+  {
+    "name": "Harvester",
+    "rating": "4.2",
+    "reviewCount": "500+",
+    "deliveryTime": "25 min",
+    "url": "https://www.ubereats.com/store/harvester-royal/I9qFaJ9XTUetLKKSYSkjJw"
+  },
+  {
+    "name": "Coffee and Cream",
+    "rating": "4.1",
+    "reviewCount": "420+",
+    "deliveryTime": "20 min",
+    "url": "https://www.ubereats.com/store/coffee-and-cream-hounslow/7xwgaJdES6W6l1DUk7opQQ"
+  },
+  {
+    "name": "Lahori Masala",
+    "rating": "4.3",
+    "reviewCount": "130+",
+    "deliveryTime": "15 min",
+    "url": "https://www.ubereats.com/store/lahori-masala/G-XxFoeFQ6uS0JeYJ1NEPg"
+  },
+  {
+    "name": "Wasabi",
+    "rating": "4.5",
+    "reviewCount": "6,000+",
+    "deliveryTime": "19 min",
+    "url": "https://www.ubereats.com/store/wasabi-ealing-broadway/DvDmFBYfQBenphJ766mWzg"
+  },
+  {
+    "name": "Chicken Guys",
+    "rating": "4.0",
+    "reviewCount": "1,000+",
+    "deliveryTime": "15 min",
+    "offers": [
+      "Top Offer • Buy 1, Get 1 Free"
+    ],
+    "url": "https://www.ubereats.com/store/chicken-guys-greenford/h32J2TLEULCQYpnbQjKawg"
+  },
+  {
+    "name": "Cake Box",
+    "rating": "4.2",
+    "reviewCount": "330+",
+    "deliveryTime": "14 min",
+    "url": "https://www.ubereats.com/store/cake-box-southall-south-road/Qz7cNnhDSd2LtG-nTK3jjw"
+  },
+  {
+    "name": "Shah Jee Dhaba",
+    "rating": "4.5",
+    "reviewCount": "39",
+    "deliveryTime": "27 min",
+    "offers": [
+      "Buy 1, get a free item"
+    ],
+    "url": "https://www.ubereats.com/store/shah-jee-dhaba/J-CLsbg0T5efnWZrWei7OA"
+  },
+  {
+    "name": "Love Donuts",
+    "rating": "3.3",
+    "reviewCount": "76",
+    "deliveryTime": "20 min",
+    "offers": [
+      "Save on Select Items"
+    ],
+    "url": "https://www.ubereats.com/store/love-donuts/F6mqwy0lV12iuEnZrgv8Ew"
+  },
+  {
+    "name": "Flamingo Flames",
+    "rating": "4.2",
+    "reviewCount": "74",
+    "deliveryTime": "25 min",
+    "url": "https://www.ubereats.com/store/flamingo-flames/oPK1HRkJVkeCaOg1ZpRsBA"
+  },
+  {
+    "name": "Cake Shop Southall",
+    "rating": "3.7",
+    "reviewCount": "120+",
+    "deliveryTime": "10 min",
+    "url": "https://www.ubereats.com/store/cake-shop-southall/0gC8YO4ORDCzm_EaFmrMjA"
+  },
+  {
+    "name": "HWY51 Philly Cheese Steaks",
+    "rating": "4.0",
+    "reviewCount": "300+",
+    "deliveryTime": "26 min",
+    "offers": [
+      "2 Offers Available"
+    ],
+    "url": "https://www.ubereats.com/store/hwy51-philly-cheese-steaks-west-ealing/NJL7HohCVrivKGcohZtnTg"
+  },
+  {
+    "name": "Paul's Bakery Sandwiches",
+    "rating": "4.1",
+    "reviewCount": "130+",
+    "deliveryTime": "18 min",
+    "offers": [
+      "£0 Delivery Fee (Spend £15)"
+    ],
+    "url": "https://www.ubereats.com/store/pauls-bakery-sandwiches/aEpzcyKQTK2O7W6dGw9eUg"
+  },
+  {
+    "name": "Pizza Paradise-Wembley",
+    "rating": "3.5",
+    "reviewCount": "600+",
+    "deliveryTime": "47 min",
+    "offers": [
+      "Top Offer • Buy 1, Get 1 Free"
+    ],
+    "url": "https://www.ubereats.com/store/pizza-paradise-wembley/DlCyTachSfeWvAdH3rJAjw"
+  },
+  {
+    "name": "Caffe Nero",
+    "rating": "4.3",
+    "reviewCount": "800+",
+    "deliveryTime": "25 min",
+    "offers": [
+      "Save on Select Items"
+    ],
+    "url": "https://www.ubereats.com/store/caffe-nero-hounslow/O0LgvmNcTaKAwh0OzQlNNw"
+  },
+  {
+    "name": "Chutnee",
+    "rating": "4.0",
+    "reviewCount": "83",
+    "deliveryTime": "18 min",
+    "offers": [
+      "20% off (Spend £20)"
+    ],
+    "url": "https://www.ubereats.com/store/chutnee/OsyKKoNARam1VprWLtE34w"
+  },
+  {
+    "name": "Rocky's",
+    "rating": "4.1",
+    "reviewCount": "1,000+",
+    "deliveryTime": "25 min",
+    "url": "https://www.ubereats.com/store/rockys/IUkeE1h4TjGTPK-NL_bmKA"
+  },
+  {
+    "name": "Holy Bagel",
+    "rating": "3.9",
+    "reviewCount": "410+",
+    "deliveryTime": "29 min",
+    "offers": [
+      "3 Offers Available"
+    ],
+    "url": "https://www.ubereats.com/store/holy-bagel-brentford/Tgq3zujLXJe5hjlYuyUlHw"
+  },
+  {
+    "name": "Big Boys Cafe",
+    "rating": "4.7",
+    "reviewCount": "1,000+",
+    "deliveryTime": "15 min",
+    "offers": [
+      "Buy 1, get a free item"
+    ],
+    "url": "https://www.ubereats.com/store/big-boys-cafe/pb9vCBmPSeiyASGfQ1RRIQ"
+  },
+  {
+    "name": "Walli’s chicken  [Alperton]",
+    "rating": "4.2",
+    "reviewCount": "410+",
+    "deliveryTime": "36 min",
+    "offers": [
+      "Top Offer • Buy 1, Get 1 Free"
+    ],
+    "url": "https://www.ubereats.com/store/wallis-chicken-alperton/TPLLgF4RRTyVeh7-95u7_g"
+  },
+  {
+    "name": "Krazy Fries Co.",
+    "rating": "3.8",
+    "reviewCount": "190+",
+    "deliveryTime": "33 min",
+    "offers": [
+      "2 Offers Available"
+    ],
+    "url": "https://www.ubereats.com/store/krazy-fries-co-west-ealing/AzSH8k7bVO-j3cK9Ln1nRw"
+  },
+  {
+    "name": "KFC",
+    "rating": "4.2",
+    "reviewCount": "4,000+",
+    "deliveryTime": "10 min",
+    "url": "https://www.ubereats.com/store/kfc-southall/rWtpSWMTV_qa4gNh_yINYQ"
+  }
+]
