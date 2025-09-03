@@ -1,0 +1,1901 @@
+{
+  "@type": "Restaurant",
+  "@id": "https://www.ubereats.com/store/kebab-palace/vH7HkLNCWzSrxEZLS3RP1g",
+  "name": "Kebab Palace",
+  "image": [
+    "https://tb-static.uber.com/prod/image-proc/processed_images/1631330970cfc5397c0e3aa550712422/891233042e9ada9873fc6d9c4e835eac.jpeg",
+    "https://tb-static.uber.com/prod/image-proc/processed_images/1631330970cfc5397c0e3aa550712422/0e8f477e8f858732b95bd74b5e07a538.jpeg"
+  ],
+  "aggregateRating": {
+    "@type": "AggregateRating",
+    "ratingValue": 2.4,
+    "reviewCount": "240"
+  },
+  "servesCuisine": [
+    "Kebab",
+    "Halal",
+    "Fast Food",
+    "Wings",
+    "Pizza",
+    "Chicken",
+    "Burgers"
+  ],
+  "geo": {
+    "@type": "GeoCoordinates",
+    "latitude": 51.55500139728218,
+    "longitude": -0.3154436249481334
+  },
+  "telephone": "+447507588936",
+  "openingHoursSpecification": [
+    {
+      "@type": "OpeningHoursSpecification",
+      "dayOfWeek": [
+        "Monday",
+        "Tuesday",
+        "Wednesday",
+        "Thursday",
+        "Friday",
+        "Saturday",
+        "Sunday"
+      ],
+      "opens": "10:0",
+      "closes": "1:0"
+    }
+  ],
+  "hasMenu": {
+    "@type": "Menu",
+    "menu_sections": [
+      "Exclusive Deals🤯",
+      "Kebabs",
+      "Kebab Burger and Wraps",
+      "Kebab Rice and Biryani",
+      "Kebab Meals",
+      "Wings",
+      "BBQ Wings",
+      "Chickens",
+      "Chicken Nuggets and Popcorn Chickens",
+      "Wings Meal and Deals",
+      "Original Chicken Deals",
+      "Burger and Wrap Meals",
+      "Burger Deals",
+      "Boneless Meal and Deals",
+      "Family Meals",
+      "Box Meals",
+      "Family Platter Deals",
+      "Piri Piri Meals and Deals",
+      "Pizza Menu🍕",
+      "Kebab Palace Special Deal",
+      "Double Deal",
+      "Triple Deal",
+      "Burgers and Wraps",
+      "Sides",
+      "Dips",
+      "Drinks",
+      "Deserts🍨🍰"
+    ],
+    "Exclusive Deals🤯": [
+      {
+        "@type": "MenuItem",
+        "name": "1 Half Peri Peri Chicken, Salad &amp; Fries",
+        "description": "",
+        "offers": {
+          "@type": "Offer",
+          "price": "9.99",
+          "priceCurrency": "GBP"
+        }
+      },
+      {
+        "@type": "MenuItem",
+        "name": "Special Peri Peri Quarter Chicken Combo",
+        "description": "1 Peri Peri Quarter Chicken, 3 Peri Peri Strips, Chips &amp; Drink",
+        "offers": {
+          "@type": "Offer",
+          "price": "10.99",
+          "priceCurrency": "GBP"
+        }
+      },
+      {
+        "@type": "MenuItem",
+        "name": "Exclusive Mixed Kebab Combo",
+        "description": "1 Mixed Kebab, 3 BBQ Wings, 3 Spicy Wings, Chips &amp; Drink",
+        "offers": {
+          "@type": "Offer",
+          "price": "11.99",
+          "priceCurrency": "GBP"
+        }
+      },
+      {
+        "@type": "MenuItem",
+        "name": "Special Kebab Wrap Combo",
+        "description": "1 Kebab Wrap, 3 Wings, Chips &amp; Drink",
+        "offers": {
+          "@type": "Offer",
+          "price": "10.99",
+          "priceCurrency": "GBP"
+        }
+      },
+      {
+        "@type": "MenuItem",
+        "name": "1 Fried Rice, 1 Piece Chicken &amp; 1 Mixed Kebab",
+        "description": "",
+        "offers": {
+          "@type": "Offer",
+          "price": "11.99",
+          "priceCurrency": "GBP"
+        }
+      },
+      {
+        "@type": "MenuItem",
+        "name": "Mixed Kebab Burger &amp; Regular Fries",
+        "description": "",
+        "offers": {
+          "@type": "Offer",
+          "price": "8.99",
+          "priceCurrency": "GBP"
+        }
+      },
+      {
+        "@type": "MenuItem",
+        "name": "1 Any Kebab",
+        "description": "",
+        "offers": {
+          "@type": "Offer",
+          "price": "10.99",
+          "priceCurrency": "GBP"
+        }
+      },
+      {
+        "@type": "MenuItem",
+        "name": "1 Kebab Kofte Wrap &amp; 1 Fries",
+        "description": "",
+        "offers": {
+          "@type": "Offer",
+          "price": "10.99",
+          "priceCurrency": "GBP"
+        }
+      },
+      {
+        "@type": "MenuItem",
+        "name": "1 Mixed Rice Kebab, 3 Wings, 3 Strips",
+        "description": "",
+        "offers": {
+          "@type": "Offer",
+          "price": "12.99",
+          "priceCurrency": "GBP"
+        }
+      },
+      {
+        "@type": "MenuItem",
+        "name": "1 Kebab Wrap",
+        "description": "",
+        "offers": {
+          "@type": "Offer",
+          "price": "9.99",
+          "priceCurrency": "GBP"
+        }
+      }
+    ],
+    "Kebabs": [
+      {
+        "@type": "MenuItem",
+        "name": "Lamb Doner (Large)",
+        "description": "",
+        "offers": {
+          "@type": "Offer",
+          "price": "8.99",
+          "priceCurrency": "GBP"
+        }
+      },
+      {
+        "@type": "MenuItem",
+        "name": "Chicken Doner (Large)",
+        "description": "",
+        "offers": {
+          "@type": "Offer",
+          "price": "8.99",
+          "priceCurrency": "GBP"
+        }
+      },
+      {
+        "@type": "MenuItem",
+        "name": "Mixed Doner (Large)",
+        "description": "",
+        "offers": {
+          "@type": "Offer",
+          "price": "8.99",
+          "priceCurrency": "GBP"
+        }
+      },
+      {
+        "@type": "MenuItem",
+        "name": "Lamb Doner (Medium)",
+        "description": "",
+        "offers": {
+          "@type": "Offer",
+          "price": "7.99",
+          "priceCurrency": "GBP"
+        }
+      },
+      {
+        "@type": "MenuItem",
+        "name": "Chicken Doner (Medium)",
+        "description": "",
+        "offers": {
+          "@type": "Offer",
+          "price": "7.99",
+          "priceCurrency": "GBP"
+        }
+      },
+      {
+        "@type": "MenuItem",
+        "name": "Mixed Doner (Medium)",
+        "description": "",
+        "offers": {
+          "@type": "Offer",
+          "price": "7.99",
+          "priceCurrency": "GBP"
+        }
+      },
+      {
+        "@type": "MenuItem",
+        "name": "Lamb Doner (Small)",
+        "description": "",
+        "offers": {
+          "@type": "Offer",
+          "price": "5.99",
+          "priceCurrency": "GBP"
+        }
+      },
+      {
+        "@type": "MenuItem",
+        "name": "Chicken Doner (Small)",
+        "description": "",
+        "offers": {
+          "@type": "Offer",
+          "price": "5.99",
+          "priceCurrency": "GBP"
+        }
+      },
+      {
+        "@type": "MenuItem",
+        "name": "Mixed Doner (Small)",
+        "description": "",
+        "offers": {
+          "@type": "Offer",
+          "price": "5.99",
+          "priceCurrency": "GBP"
+        }
+      },
+      {
+        "@type": "MenuItem",
+        "name": "Mixed Doner with Naan (Extra Large)",
+        "description": "",
+        "offers": {
+          "@type": "Offer",
+          "price": "10.99",
+          "priceCurrency": "GBP"
+        }
+      }
+    ],
+    "Kebab Burger and Wraps": [
+      {
+        "@type": "MenuItem",
+        "name": "Lamb Kebab Wrap",
+        "description": "",
+        "offers": {
+          "@type": "Offer",
+          "price": "4.99",
+          "priceCurrency": "GBP"
+        }
+      },
+      {
+        "@type": "MenuItem",
+        "name": "Chicken Kebab Wrap",
+        "description": "",
+        "offers": {
+          "@type": "Offer",
+          "price": "4.99",
+          "priceCurrency": "GBP"
+        }
+      },
+      {
+        "@type": "MenuItem",
+        "name": "Mixed Kebab Wrap",
+        "description": "",
+        "offers": {
+          "@type": "Offer",
+          "price": "4.99",
+          "priceCurrency": "GBP"
+        }
+      },
+      {
+        "@type": "MenuItem",
+        "name": "Mixed Kebab Burger",
+        "description": "",
+        "offers": {
+          "@type": "Offer",
+          "price": "3.99",
+          "priceCurrency": "GBP"
+        }
+      },
+      {
+        "@type": "MenuItem",
+        "name": "Chicken Kebab Burger",
+        "description": "",
+        "offers": {
+          "@type": "Offer",
+          "price": "3.99",
+          "priceCurrency": "GBP"
+        }
+      },
+      {
+        "@type": "MenuItem",
+        "name": "Lamb Kebab Burger",
+        "description": "",
+        "offers": {
+          "@type": "Offer",
+          "price": "3.99",
+          "priceCurrency": "GBP"
+        }
+      }
+    ],
+    "Kebab Rice and Biryani": [
+      {
+        "@type": "MenuItem",
+        "name": "Kebab with Chicken Biryani",
+        "description": "",
+        "offers": {
+          "@type": "Offer",
+          "price": "12.99",
+          "priceCurrency": "GBP"
+        }
+      },
+      {
+        "@type": "MenuItem",
+        "name": "Kebab with Rice",
+        "description": "",
+        "offers": {
+          "@type": "Offer",
+          "price": "10.99",
+          "priceCurrency": "GBP"
+        }
+      },
+      {
+        "@type": "MenuItem",
+        "name": "Kebab with Fried Rice",
+        "description": "",
+        "offers": {
+          "@type": "Offer",
+          "price": "9.99",
+          "priceCurrency": "GBP"
+        }
+      }
+    ],
+    "Kebab Meals": [
+      {
+        "@type": "MenuItem",
+        "name": "Lamb Kebab Wrap Meal",
+        "description": "Lamb Kebab Wrap with Chips &amp; Can of drink",
+        "offers": {
+          "@type": "Offer",
+          "price": "6.99",
+          "priceCurrency": "GBP"
+        }
+      },
+      {
+        "@type": "MenuItem",
+        "name": "Chicken Kebab Wrap Meal",
+        "description": "Chicken Kebab Wrap with chips &amp; can of drink",
+        "offers": {
+          "@type": "Offer",
+          "price": "6.99",
+          "priceCurrency": "GBP"
+        }
+      },
+      {
+        "@type": "MenuItem",
+        "name": "Mixed Kebab Wrap Meal",
+        "description": "Mixed Kebab Wrap with Chips and A Can Drink",
+        "offers": {
+          "@type": "Offer",
+          "price": "6.99",
+          "priceCurrency": "GBP"
+        }
+      },
+      {
+        "@type": "MenuItem",
+        "name": "Lamb Kebab Burger Meal",
+        "description": "Lamb Kebab Burger with Chips and A Can Drink",
+        "offers": {
+          "@type": "Offer",
+          "price": "5.99",
+          "priceCurrency": "GBP"
+        }
+      },
+      {
+        "@type": "MenuItem",
+        "name": "Chicken Kebab Burger Meal",
+        "description": "Chicken Kebab Burger with Chips and A Can Drink",
+        "offers": {
+          "@type": "Offer",
+          "price": "5.99",
+          "priceCurrency": "GBP"
+        }
+      },
+      {
+        "@type": "MenuItem",
+        "name": "Mixed Kebab Burger Meal",
+        "description": "Mixed Kebab Burger with Chips and A Can Drink",
+        "offers": {
+          "@type": "Offer",
+          "price": "5.99",
+          "priceCurrency": "GBP"
+        }
+      }
+    ],
+    "Wings": [
+      {
+        "@type": "MenuItem",
+        "name": "Wings",
+        "description": "",
+        "offers": {
+          "@type": "Offer",
+          "price": "0.99",
+          "priceCurrency": "GBP"
+        }
+      }
+    ],
+    "BBQ Wings": [
+      {
+        "@type": "MenuItem",
+        "name": "BBQ Wings",
+        "description": "",
+        "offers": {
+          "@type": "Offer",
+          "price": "0.99",
+          "priceCurrency": "GBP"
+        }
+      }
+    ],
+    "Chickens": [
+      {
+        "@type": "MenuItem",
+        "name": "Chicken Strips (6 Pieces)",
+        "description": "",
+        "offers": {
+          "@type": "Offer",
+          "price": "3.99",
+          "priceCurrency": "GBP"
+        }
+      },
+      {
+        "@type": "MenuItem",
+        "name": "Chicken Strips (3 Pieces)",
+        "description": "",
+        "offers": {
+          "@type": "Offer",
+          "price": "1.99",
+          "priceCurrency": "GBP"
+        }
+      },
+      {
+        "@type": "MenuItem",
+        "name": "Chicken (6 Pieces)",
+        "description": "",
+        "offers": {
+          "@type": "Offer",
+          "price": "8.49",
+          "priceCurrency": "GBP"
+        }
+      },
+      {
+        "@type": "MenuItem",
+        "name": "Chicken (3 Pieces)",
+        "description": "",
+        "offers": {
+          "@type": "Offer",
+          "price": "4.99",
+          "priceCurrency": "GBP"
+        }
+      },
+      {
+        "@type": "MenuItem",
+        "name": "Chicken (1 Piece)",
+        "description": "",
+        "offers": {
+          "@type": "Offer",
+          "price": "1.99",
+          "priceCurrency": "GBP"
+        }
+      }
+    ],
+    "Chicken Nuggets and Popcorn Chickens": [
+      {
+        "@type": "MenuItem",
+        "name": "Popcorn Chicken (Large)",
+        "description": "",
+        "offers": {
+          "@type": "Offer",
+          "price": "6.99",
+          "priceCurrency": "GBP"
+        }
+      },
+      {
+        "@type": "MenuItem",
+        "name": "Chicken Nuggets (10 Pieces)",
+        "description": "",
+        "offers": {
+          "@type": "Offer",
+          "price": "6.49",
+          "priceCurrency": "GBP"
+        }
+      },
+      {
+        "@type": "MenuItem",
+        "name": "Chicken Nuggets (6 Pieces)",
+        "description": "",
+        "offers": {
+          "@type": "Offer",
+          "price": "4.99",
+          "priceCurrency": "GBP"
+        }
+      },
+      {
+        "@type": "MenuItem",
+        "name": "Chicken Popcorn Meal (Large)",
+        "description": "10 popcorn chicken, fries and can drink.",
+        "offers": {
+          "@type": "Offer",
+          "price": "7.99",
+          "priceCurrency": "GBP"
+        }
+      },
+      {
+        "@type": "MenuItem",
+        "name": "Chicken Nuggets Meal",
+        "description": "6 nuggets, fries and can drink.",
+        "offers": {
+          "@type": "Offer",
+          "price": "5.99",
+          "priceCurrency": "GBP"
+        }
+      }
+    ],
+    "Wings Meal and Deals": [
+      {
+        "@type": "MenuItem",
+        "name": "Wing Meal",
+        "description": "5 or 8 wings, chips and drink 330 ml.",
+        "offers": {
+          "@type": "Offer",
+          "price": "6.29",
+          "priceCurrency": "GBP"
+        }
+      },
+      {
+        "@type": "MenuItem",
+        "name": "Chicken Strips Meal",
+        "description": "6 pieces of strips, fries and drinks 330 ml.",
+        "offers": {
+          "@type": "Offer",
+          "price": "7.49",
+          "priceCurrency": "GBP"
+        }
+      },
+      {
+        "@type": "MenuItem",
+        "name": "Spicy Wings Deal",
+        "description": "10 wings and 2 fries.",
+        "offers": {
+          "@type": "Offer",
+          "price": "8.99",
+          "priceCurrency": "GBP"
+        }
+      },
+      {
+        "@type": "MenuItem",
+        "name": "BBQ Wings Meal",
+        "description": "5 BBQ wings, fries and drink 330 ml.",
+        "offers": {
+          "@type": "Offer",
+          "price": "6.99",
+          "priceCurrency": "GBP"
+        }
+      },
+      {
+        "@type": "MenuItem",
+        "name": "Mixed Pack Meal",
+        "description": "4 wings, 3 strips, fries and drink 330 ml.",
+        "offers": {
+          "@type": "Offer",
+          "price": "7.49",
+          "priceCurrency": "GBP"
+        }
+      },
+      {
+        "@type": "MenuItem",
+        "name": "Wing Burger Deal 2",
+        "description": "25 wings, box of fries, beans or coleslaw and 1.5 L drink.",
+        "offers": {
+          "@type": "Offer",
+          "price": "17.99",
+          "priceCurrency": "GBP"
+        }
+      },
+      {
+        "@type": "MenuItem",
+        "name": "Wings Burger Deal",
+        "description": "10 wings, 2 fillet burger, box of fries and beans or coleslaw.",
+        "offers": {
+          "@type": "Offer",
+          "price": "16.99",
+          "priceCurrency": "GBP"
+        }
+      }
+    ],
+    "Original Chicken Deals": [
+      {
+        "@type": "MenuItem",
+        "name": "Combo Chicken Meal 1",
+        "description": "2 pieces chicken, 3 wings, fries and drink 330 ml.",
+        "offers": {
+          "@type": "Offer",
+          "price": "7.99",
+          "priceCurrency": "GBP"
+        }
+      },
+      {
+        "@type": "MenuItem",
+        "name": "Mini Variety Meal",
+        "description": "1 piece chicken, 2 wings, fries and drink 330 ml.",
+        "offers": {
+          "@type": "Offer",
+          "price": "5.99",
+          "priceCurrency": "GBP"
+        }
+      },
+      {
+        "@type": "MenuItem",
+        "name": "Combo Chicken Meal 2",
+        "description": "3 pieces chicken, 3 wings, fries and drink 330 ml.",
+        "offers": {
+          "@type": "Offer",
+          "price": "8.99",
+          "priceCurrency": "GBP"
+        }
+      },
+      {
+        "@type": "MenuItem",
+        "name": "Chicken Meal (3 Pieces)",
+        "description": "3 pieces chicken, fries and drink 330 ml.",
+        "offers": {
+          "@type": "Offer",
+          "price": "7.99",
+          "priceCurrency": "GBP"
+        }
+      },
+      {
+        "@type": "MenuItem",
+        "name": "Classic Chicken Meal",
+        "description": "2 pieces chicken, fries and drink 330 ml.",
+        "offers": {
+          "@type": "Offer",
+          "price": "6.99",
+          "priceCurrency": "GBP"
+        }
+      },
+      {
+        "@type": "MenuItem",
+        "name": "Wallis Classic Meal",
+        "description": "1 piece chicken, 1 fillet burger, fries and drink 330 ml.",
+        "offers": {
+          "@type": "Offer",
+          "price": "8.49",
+          "priceCurrency": "GBP"
+        }
+      },
+      {
+        "@type": "MenuItem",
+        "name": "BBQ Chicken Deal",
+        "description": "2 pieces BBQ chicken, fries and drink 330 ml.",
+        "offers": {
+          "@type": "Offer",
+          "price": "7.99",
+          "priceCurrency": "GBP"
+        }
+      }
+    ],
+    "Burger and Wrap Meals": [
+      {
+        "@type": "MenuItem",
+        "name": "Chicken Wrap Meal",
+        "description": "Chicken wrap, fries and drink 330 ml.",
+        "offers": {
+          "@type": "Offer",
+          "price": "6.99",
+          "priceCurrency": "GBP"
+        }
+      },
+      {
+        "@type": "MenuItem",
+        "name": "Sweet Chilli Wrap Meal",
+        "description": "Sweet chilli wrap, fries and drink.",
+        "offers": {
+          "@type": "Offer",
+          "price": "7.99",
+          "priceCurrency": "GBP"
+        }
+      },
+      {
+        "@type": "MenuItem",
+        "name": "Veggie Wrap Meal",
+        "description": "Veggie wrap, fries and can of drink.",
+        "offers": {
+          "@type": "Offer",
+          "price": "7.99",
+          "priceCurrency": "GBP"
+        }
+      },
+      {
+        "@type": "MenuItem",
+        "name": "Chicken Fillet Burger Meal",
+        "description": "Chicken fillet burger, fries and can drink.",
+        "offers": {
+          "@type": "Offer",
+          "price": "6.99",
+          "priceCurrency": "GBP"
+        }
+      },
+      {
+        "@type": "MenuItem",
+        "name": "Veggie Burger Meal",
+        "description": "Veggie burger, fries and can drink.",
+        "offers": {
+          "@type": "Offer",
+          "price": "6.99",
+          "priceCurrency": "GBP"
+        }
+      },
+      {
+        "@type": "MenuItem",
+        "name": "Strip Burger Meal",
+        "description": "Chicken strip burger, fries and drink 330 ml.",
+        "offers": {
+          "@type": "Offer",
+          "price": "5.49",
+          "priceCurrency": "GBP"
+        }
+      },
+      {
+        "@type": "MenuItem",
+        "name": "Quarter Pounder Burger Meal",
+        "description": "Quarter pounder burger, fries and drink 330 ml.",
+        "offers": {
+          "@type": "Offer",
+          "price": "6.99",
+          "priceCurrency": "GBP"
+        }
+      },
+      {
+        "@type": "MenuItem",
+        "name": "Mega Burger Meal",
+        "description": "Mega burger, fries and drink 330 ml.",
+        "offers": {
+          "@type": "Offer",
+          "price": "7.99",
+          "priceCurrency": "GBP"
+        }
+      },
+      {
+        "@type": "MenuItem",
+        "name": "Half Pounder Burger Meal",
+        "description": "Half pounder burger, fries and drink 330 ml.",
+        "offers": {
+          "@type": "Offer",
+          "price": "7.99",
+          "priceCurrency": "GBP"
+        }
+      },
+      {
+        "@type": "MenuItem",
+        "name": "Chicken Steak Burger Meal",
+        "description": "Chicken steak burger, fries and drink 330 ml.",
+        "offers": {
+          "@type": "Offer",
+          "price": "5.79",
+          "priceCurrency": "GBP"
+        }
+      },
+      {
+        "@type": "MenuItem",
+        "name": "Ringer Fillet Burger Meal",
+        "description": "Zinger burger, fries and drink 330 ml.",
+        "offers": {
+          "@type": "Offer",
+          "price": "7.99",
+          "priceCurrency": "GBP"
+        }
+      },
+      {
+        "@type": "MenuItem",
+        "name": "Sweet Chilli Burger Meal",
+        "description": "Sweet chilli burger, fries and drink.",
+        "offers": {
+          "@type": "Offer",
+          "price": "7.99",
+          "priceCurrency": "GBP"
+        }
+      }
+    ],
+    "Burger Deals": [
+      {
+        "@type": "MenuItem",
+        "name": "Star Deal",
+        "description": "Chicken strip burger, 2 wings, fries and drink 330 ml.",
+        "offers": {
+          "@type": "Offer",
+          "price": "6.49",
+          "priceCurrency": "GBP"
+        }
+      },
+      {
+        "@type": "MenuItem",
+        "name": "Fillet Deal",
+        "description": "Chicken fillet burger, 2 wings, fries and drink 330 ml.",
+        "offers": {
+          "@type": "Offer",
+          "price": "7.99",
+          "priceCurrency": "GBP"
+        }
+      }
+    ],
+    "Boneless Meal and Deals": [
+      {
+        "@type": "MenuItem",
+        "name": "Boneless Combo Deal",
+        "description": "6 pieces of chicken strips, chicken popcorn regular, 6 pieces of chicken nuggets, 2 fries and 2 cans of drink 330 ml.",
+        "offers": {
+          "@type": "Offer",
+          "price": "13.99",
+          "priceCurrency": "GBP"
+        }
+      },
+      {
+        "@type": "MenuItem",
+        "name": "Boneless Family Deal",
+        "description": "4 pieces of chicken breast, chicken popcorn large, 20 nuggets, box of fries, beans or coleslaw and 1.5 L drink.",
+        "offers": {
+          "@type": "Offer",
+          "price": "26.99",
+          "priceCurrency": "GBP"
+        }
+      }
+    ],
+    "Family Meals": [
+      {
+        "@type": "MenuItem",
+        "name": "Family Bucket Meals",
+        "description": "8, 10, 12 or 14 pieces chicken, 8 wings, beans or coleslaw, box of fries and 1.5 L drink.",
+        "offers": {
+          "@type": "Offer",
+          "price": "19.99",
+          "priceCurrency": "GBP"
+        }
+      },
+      {
+        "@type": "MenuItem",
+        "name": "Family Combo Meal",
+        "description": "4 pieces chicken, 8 wings, 2 fillet burgers, beans or coleslaw and box of fries.",
+        "offers": {
+          "@type": "Offer",
+          "price": "20.99",
+          "priceCurrency": "GBP"
+        }
+      }
+    ],
+    "Box Meals": [
+      {
+        "@type": "MenuItem",
+        "name": "Strips Burger Box",
+        "description": "Strip burger, 2 chicken strips, 2 wings, coleslaw or beans, fries and drink 330 ml.",
+        "offers": {
+          "@type": "Offer",
+          "price": "8.49",
+          "priceCurrency": "GBP"
+        }
+      },
+      {
+        "@type": "MenuItem",
+        "name": "Fillet Burger Box",
+        "description": "Chicken fillet burger, 2 chicken strips, 2 wings, beans or coleslaw, fries and drink 330 ml.",
+        "offers": {
+          "@type": "Offer",
+          "price": "9.49",
+          "priceCurrency": "GBP"
+        }
+      },
+      {
+        "@type": "MenuItem",
+        "name": "Piri Piri Wrap Box",
+        "description": "Piri piri wrap, 3 piri piri strips, 3 piri piri wings, coleslaw or beans, fries and drink 330 ml.",
+        "offers": {
+          "@type": "Offer",
+          "price": "11.49",
+          "priceCurrency": "GBP"
+        }
+      },
+      {
+        "@type": "MenuItem",
+        "name": "Piri Piri Chicken Box",
+        "description": "1/4 piri piri chicken, 2 piri piri strips, 2 piri piri wings, coleslaw or beans, fries and drink 330 ml.",
+        "offers": {
+          "@type": "Offer",
+          "price": "10.49",
+          "priceCurrency": "GBP"
+        }
+      },
+      {
+        "@type": "MenuItem",
+        "name": "Chicken Wrap Box",
+        "description": "Chicken wrap, 3 chicken strips, 3 wings, coleslaw or beans, fries and drink 330 ml.",
+        "offers": {
+          "@type": "Offer",
+          "price": "10.49",
+          "priceCurrency": "GBP"
+        }
+      },
+      {
+        "@type": "MenuItem",
+        "name": "Original Chicken Box",
+        "description": "1 piece chicken, 3 chicken strips, 3 wings, coleslaw or beans, fries and drink 330 ml.",
+        "offers": {
+          "@type": "Offer",
+          "price": "9.49",
+          "priceCurrency": "GBP"
+        }
+      },
+      {
+        "@type": "MenuItem",
+        "name": "Piri Piri Burger Box",
+        "description": "Piri piri burger, 2 piri piri strips, 2 piri piri wings, coleslaw or beans, fries and drink 330 ml.",
+        "offers": {
+          "@type": "Offer",
+          "price": "10.49",
+          "priceCurrency": "GBP"
+        }
+      },
+      {
+        "@type": "MenuItem",
+        "name": "Special Mixed Box",
+        "description": "Chicken fillet, 1 piece chicken, 2 wings, 2 chicken strips, coleslaw or beans, fries and drink 330 ml.",
+        "offers": {
+          "@type": "Offer",
+          "price": "10.49",
+          "priceCurrency": "GBP"
+        }
+      }
+    ],
+    "Family Platter Deals": [
+      {
+        "@type": "MenuItem",
+        "name": "Single Platter",
+        "description": "Whole chicken, box of fries, green salad, beans or coleslaw and 2 grilled pittas.",
+        "offers": {
+          "@type": "Offer",
+          "price": "19.99",
+          "priceCurrency": "GBP"
+        }
+      },
+      {
+        "@type": "MenuItem",
+        "name": "Mixed Platter",
+        "description": "Whole chicken, 5 piri piri wings, 5 piri piri strips, box of fries, green salad, beans or coleslaw and 2 grilled pittas.",
+        "offers": {
+          "@type": "Offer",
+          "price": "26.99",
+          "priceCurrency": "GBP"
+        }
+      }
+    ],
+    "Piri Piri Meals and Deals": [
+      {
+        "@type": "MenuItem",
+        "name": "Peri Peri Whole Chicken (1 Piece)",
+        "description": "",
+        "offers": {
+          "@type": "Offer",
+          "price": "13.99",
+          "priceCurrency": "GBP"
+        }
+      },
+      {
+        "@type": "MenuItem",
+        "name": "Peri Peri Chicken Strips Meal",
+        "description": "5 peri peri strips, fries and can drink.",
+        "offers": {
+          "@type": "Offer",
+          "price": "8.49",
+          "priceCurrency": "GBP"
+        }
+      },
+      {
+        "@type": "MenuItem",
+        "name": "Peri Peri Chicken Wings Meal",
+        "description": "5 peri peri wings, fries and can drink.",
+        "offers": {
+          "@type": "Offer",
+          "price": "7.99",
+          "priceCurrency": "GBP"
+        }
+      },
+      {
+        "@type": "MenuItem",
+        "name": "Peri Peri Chicken Burger Meal",
+        "description": "Peri peri chicken burger, fries and can drink.",
+        "offers": {
+          "@type": "Offer",
+          "price": "7.99",
+          "priceCurrency": "GBP"
+        }
+      },
+      {
+        "@type": "MenuItem",
+        "name": "Peri Peri Wrap Meal",
+        "description": "Piri piri breast in wrap, fries and drink 330 ml.",
+        "offers": {
+          "@type": "Offer",
+          "price": "8.49",
+          "priceCurrency": "GBP"
+        }
+      },
+      {
+        "@type": "MenuItem",
+        "name": "Peri Peri Pitta Meal",
+        "description": "Peri Peri Pitta,fries &amp; can drink",
+        "offers": {
+          "@type": "Offer",
+          "price": "8.49",
+          "priceCurrency": "GBP"
+        }
+      },
+      {
+        "@type": "MenuItem",
+        "name": "Half Peri Peri Chicken",
+        "description": "",
+        "offers": {
+          "@type": "Offer",
+          "price": "7.99",
+          "priceCurrency": "GBP"
+        }
+      },
+      {
+        "@type": "MenuItem",
+        "name": "Peri Peri Rice Deal Meal",
+        "description": "Rice, 1/4 chicken and can drink.",
+        "offers": {
+          "@type": "Offer",
+          "price": "8.49",
+          "priceCurrency": "GBP"
+        }
+      },
+      {
+        "@type": "MenuItem",
+        "name": "Peri Peri Chicken Meal",
+        "description": "1/4 or 1/2 chicken, fries and drink 330 ml.",
+        "offers": {
+          "@type": "Offer",
+          "price": "7.99",
+          "priceCurrency": "GBP"
+        }
+      },
+      {
+        "@type": "MenuItem",
+        "name": "Peri Peri Chicken Salad Meal",
+        "description": "Peri peri chicken strips salad, fries and drink 330 ml.",
+        "offers": {
+          "@type": "Offer",
+          "price": "7.99",
+          "priceCurrency": "GBP"
+        }
+      }
+    ],
+    "Pizza Menu🍕": [
+      {
+        "@type": "MenuItem",
+        "name": "Margherita",
+        "description": "Cheese tomato base",
+        "offers": {
+          "@type": "Offer",
+          "price": "2.99",
+          "priceCurrency": "GBP"
+        }
+      },
+      {
+        "@type": "MenuItem",
+        "name": "Hawaiian",
+        "description": "Ham, Mushrooms, Pineapple",
+        "offers": {
+          "@type": "Offer",
+          "price": "2.99",
+          "priceCurrency": "GBP"
+        }
+      },
+      {
+        "@type": "MenuItem",
+        "name": "Beefeater",
+        "description": "Mushrooms, onions, tomatoes, beef",
+        "offers": {
+          "@type": "Offer",
+          "price": "2.99",
+          "priceCurrency": "GBP"
+        }
+      },
+      {
+        "@type": "MenuItem",
+        "name": "Pepperoni Plus",
+        "description": "Mushrooms, onions, green peppers, pepperoni",
+        "offers": {
+          "@type": "Offer",
+          "price": "2.99",
+          "priceCurrency": "GBP"
+        }
+      },
+      {
+        "@type": "MenuItem",
+        "name": "Italian",
+        "description": "Ham, beef, jalapeños, onions, sweet corn",
+        "offers": {
+          "@type": "Offer",
+          "price": "2.99",
+          "priceCurrency": "GBP"
+        }
+      },
+      {
+        "@type": "MenuItem",
+        "name": "Vegi Lover",
+        "description": "Onions, mushrooms, peppers, sweetcorn, tomatoes",
+        "offers": {
+          "@type": "Offer",
+          "price": "2.99",
+          "priceCurrency": "GBP"
+        }
+      },
+      {
+        "@type": "MenuItem",
+        "name": "Vegi Hot",
+        "description": "Onions, sweetcorn, peppers, chillies, jalapeños, mushrooms",
+        "offers": {
+          "@type": "Offer",
+          "price": "2.99",
+          "priceCurrency": "GBP"
+        }
+      },
+      {
+        "@type": "MenuItem",
+        "name": "Vegi Deluxe",
+        "description": "Onions, mushrooms, feta cheese, tomatoes, olives",
+        "offers": {
+          "@type": "Offer",
+          "price": "2.99",
+          "priceCurrency": "GBP"
+        }
+      },
+      {
+        "@type": "MenuItem",
+        "name": "Sweet Hot Veg",
+        "description": "Onions, sweetcorn, pineapple, tomatoes, jalapenos",
+        "offers": {
+          "@type": "Offer",
+          "price": "2.99",
+          "priceCurrency": "GBP"
+        }
+      },
+      {
+        "@type": "MenuItem",
+        "name": "Seafood",
+        "description": "Tuna, anchovies, tomatoes, prawns, olives",
+        "offers": {
+          "@type": "Offer",
+          "price": "2.99",
+          "priceCurrency": "GBP"
+        }
+      },
+      {
+        "@type": "MenuItem",
+        "name": "House Special",
+        "description": "Kebab, chicken tikka, peppers, sweetcorn, Jalapeno",
+        "offers": {
+          "@type": "Offer",
+          "price": "2.99",
+          "priceCurrency": "GBP"
+        }
+      },
+      {
+        "@type": "MenuItem",
+        "name": "Polish Lover",
+        "description": "Onions, pepperoni, beef, peppers &amp; chicken",
+        "offers": {
+          "@type": "Offer",
+          "price": "2.99",
+          "priceCurrency": "GBP"
+        }
+      },
+      {
+        "@type": "MenuItem",
+        "name": "Somali Lover",
+        "description": "BBQ base, tuna,sweetcorn &amp; pineapple",
+        "offers": {
+          "@type": "Offer",
+          "price": "2.99",
+          "priceCurrency": "GBP"
+        }
+      },
+      {
+        "@type": "MenuItem",
+        "name": "Somali Pizza",
+        "description": "BBQ base, chips, pepperoni, chicken &amp; pineapple",
+        "offers": {
+          "@type": "Offer",
+          "price": "2.99",
+          "priceCurrency": "GBP"
+        }
+      },
+      {
+        "@type": "MenuItem",
+        "name": "Peri Peri Lover",
+        "description": "Perl peri chicken, sun dried tomatoes, onions, peppers &amp; sweetcorn",
+        "offers": {
+          "@type": "Offer",
+          "price": "2.99",
+          "priceCurrency": "GBP"
+        }
+      },
+      {
+        "@type": "MenuItem",
+        "name": "Chicken Special",
+        "description": "Onions, sweetcorn, chicken, tomatoes, mushrooms",
+        "offers": {
+          "@type": "Offer",
+          "price": "2.99",
+          "priceCurrency": "GBP"
+        }
+      },
+      {
+        "@type": "MenuItem",
+        "name": "Meaty One",
+        "description": "Pepperoni, ham, spicy beef, chicken",
+        "offers": {
+          "@type": "Offer",
+          "price": "2.99",
+          "priceCurrency": "GBP"
+        }
+      },
+      {
+        "@type": "MenuItem",
+        "name": "Chicken Tandoor",
+        "description": "Mushrooms, sweetcorn, tandoori chicken, onions, peppers",
+        "offers": {
+          "@type": "Offer",
+          "price": "2.99",
+          "priceCurrency": "GBP"
+        }
+      },
+      {
+        "@type": "MenuItem",
+        "name": "BBQ Chicken",
+        "description": "Onions, peppers, BBQ chicken, BBQ sauce, sweetcorn",
+        "offers": {
+          "@type": "Offer",
+          "price": "2.99",
+          "priceCurrency": "GBP"
+        }
+      },
+      {
+        "@type": "MenuItem",
+        "name": "Hot Chicken Tikka",
+        "description": "Onions, chillies, chicken tikka, peppers, sweetcorn",
+        "offers": {
+          "@type": "Offer",
+          "price": "2.99",
+          "priceCurrency": "GBP"
+        }
+      },
+      {
+        "@type": "MenuItem",
+        "name": "Meat Feast",
+        "description": "Double ham, double beef, double pepperon",
+        "offers": {
+          "@type": "Offer",
+          "price": "2.99",
+          "priceCurrency": "GBP"
+        }
+      },
+      {
+        "@type": "MenuItem",
+        "name": "Mexicana",
+        "description": "Mexican chicken, beef, pepperoni, peppers, Jalapeños",
+        "offers": {
+          "@type": "Offer",
+          "price": "2.99",
+          "priceCurrency": "GBP"
+        }
+      },
+      {
+        "@type": "MenuItem",
+        "name": "Pepperoni Lover",
+        "description": "Pepperoni, More Pepperoni",
+        "offers": {
+          "@type": "Offer",
+          "price": "2.99",
+          "priceCurrency": "GBP"
+        }
+      },
+      {
+        "@type": "MenuItem",
+        "name": "All in One",
+        "description": "Onions, sweet corn, pepperoni, beef, ham, peppers, mushrooms",
+        "offers": {
+          "@type": "Offer",
+          "price": "2.99",
+          "priceCurrency": "GBP"
+        }
+      },
+      {
+        "@type": "MenuItem",
+        "name": "Doner Pizza",
+        "description": "Doner kebab, mushrooms, onions, green peppers, sweet corn",
+        "offers": {
+          "@type": "Offer",
+          "price": "2.99",
+          "priceCurrency": "GBP"
+        }
+      },
+      {
+        "@type": "MenuItem",
+        "name": "Afghani Pizza",
+        "description": "Chicken tandoori, chicken tikka, sweet corn, onions, green peppers",
+        "offers": {
+          "@type": "Offer",
+          "price": "2.99",
+          "priceCurrency": "GBP"
+        }
+      },
+      {
+        "@type": "MenuItem",
+        "name": "Paneer Special",
+        "description": "Paneer,Sweet Corn,onions,green peppers",
+        "offers": {
+          "@type": "Offer",
+          "price": "2.99",
+          "priceCurrency": "GBP"
+        }
+      }
+    ],
+    "Kebab Palace Special Deal": [
+      {
+        "@type": "MenuItem",
+        "name": "Italian Deal",
+        "description": "1 Medium Pizza, 8 Hot Wings, 1 Portion of Garlic Bread &amp; 1,5Ltr Bottle of Soft Drinks",
+        "offers": {
+          "@type": "Offer",
+          "price": "18.99",
+          "priceCurrency": "GBP"
+        }
+      },
+      {
+        "@type": "MenuItem",
+        "name": "Big Family Meal",
+        "description": "Any 1 X-Large Pizza, 10 Hot Wings, 1\nPortion Garlic Bread &amp; 1.5Ltr Bottle of Soft Drink",
+        "offers": {
+          "@type": "Offer",
+          "price": "23.99",
+          "priceCurrency": "GBP"
+        }
+      },
+      {
+        "@type": "MenuItem",
+        "name": "Mega Deal",
+        "description": "Any 2 Large Pizzas, 10 Hot Wings &amp; 2\nPortions of Garlic Bread, 1.5Ltr Bottle of Soft Drink",
+        "offers": {
+          "@type": "Offer",
+          "price": "33.99",
+          "priceCurrency": "GBP"
+        }
+      },
+      {
+        "@type": "MenuItem",
+        "name": "Supreme Deal",
+        "description": "2 Extra Large Pizzas, 10 Hot Wings &amp; 2\nPortions of Garlic Bread, 1.5Ltr Bottle of Soft Drink",
+        "offers": {
+          "@type": "Offer",
+          "price": "35.99",
+          "priceCurrency": "GBP"
+        }
+      },
+      {
+        "@type": "MenuItem",
+        "name": "Single Peri Platter",
+        "description": "Whole Chicken, Large Fries, Mexican Rice &amp; 1.5Ltr Bottle of Soft Drink",
+        "offers": {
+          "@type": "Offer",
+          "price": "18.99",
+          "priceCurrency": "GBP"
+        }
+      },
+      {
+        "@type": "MenuItem",
+        "name": "Family Peri Platter",
+        "description": "Whole Chicken, 6 Peri Wings, 3\nFries,Spicy Mexican Rice, &amp; 1.5Ltr\nBottle of Soft Drink",
+        "offers": {
+          "@type": "Offer",
+          "price": "24.99",
+          "priceCurrency": "GBP"
+        }
+      },
+      {
+        "@type": "MenuItem",
+        "name": "Family Special",
+        "description": "Any 1 Large Pizza, 4Pcs Chicken,\n1 Doner Kebab, 1.5Ltr Bottle of Soft Drink",
+        "offers": {
+          "@type": "Offer",
+          "price": "25.99",
+          "priceCurrency": "GBP"
+        }
+      },
+      {
+        "@type": "MenuItem",
+        "name": "Kebab Special",
+        "description": "2 Doner Kebabs, 2 Medium Fries &amp; 2 Cans of Soft Drink",
+        "offers": {
+          "@type": "Offer",
+          "price": "18.99",
+          "priceCurrency": "GBP"
+        }
+      },
+      {
+        "@type": "MenuItem",
+        "name": "Monster Peri Platter",
+        "description": "2 Whole Chickens, 12 Peri Peri Wings,\n4 Fries, 1 Garlic Bread, Spicy Mexican Rice &amp; 1.5Ltr Bottle of Soft Drink",
+        "offers": {
+          "@type": "Offer",
+          "price": "38.99",
+          "priceCurrency": "GBP"
+        }
+      }
+    ],
+    "Double Deal": [
+      {
+        "@type": "MenuItem",
+        "name": "Any 2 Medium Pizza",
+        "description": "",
+        "offers": {
+          "@type": "Offer",
+          "price": "16.99",
+          "priceCurrency": "GBP"
+        }
+      },
+      {
+        "@type": "MenuItem",
+        "name": "Any 2 Large Pizza",
+        "description": "",
+        "offers": {
+          "@type": "Offer",
+          "price": "18.99",
+          "priceCurrency": "GBP"
+        }
+      },
+      {
+        "@type": "MenuItem",
+        "name": "Any 2 X-Large Pizza",
+        "description": "",
+        "offers": {
+          "@type": "Offer",
+          "price": "20.99",
+          "priceCurrency": "GBP"
+        }
+      }
+    ],
+    "Triple Deal": [
+      {
+        "@type": "MenuItem",
+        "name": "Any 3 Medium Pizza",
+        "description": "",
+        "offers": {
+          "@type": "Offer",
+          "price": "22.99",
+          "priceCurrency": "GBP"
+        }
+      },
+      {
+        "@type": "MenuItem",
+        "name": "Any 3 Large Pizza",
+        "description": "",
+        "offers": {
+          "@type": "Offer",
+          "price": "25.99",
+          "priceCurrency": "GBP"
+        }
+      },
+      {
+        "@type": "MenuItem",
+        "name": "Any 3 X-Large Pizza",
+        "description": "",
+        "offers": {
+          "@type": "Offer",
+          "price": "28.99",
+          "priceCurrency": "GBP"
+        }
+      }
+    ],
+    "Burgers and Wraps": [
+      {
+        "@type": "MenuItem",
+        "name": "Chicken Wrap",
+        "description": "",
+        "offers": {
+          "@type": "Offer",
+          "price": "5.99",
+          "priceCurrency": "GBP"
+        }
+      },
+      {
+        "@type": "MenuItem",
+        "name": "Sweet Chilli Wrap",
+        "description": "",
+        "offers": {
+          "@type": "Offer",
+          "price": "6.99",
+          "priceCurrency": "GBP"
+        }
+      },
+      {
+        "@type": "MenuItem",
+        "name": "Veggie Wrap",
+        "description": "",
+        "offers": {
+          "@type": "Offer",
+          "price": "6.99",
+          "priceCurrency": "GBP"
+        }
+      },
+      {
+        "@type": "MenuItem",
+        "name": "Strips Burger",
+        "description": "",
+        "offers": {
+          "@type": "Offer",
+          "price": "4.49",
+          "priceCurrency": "GBP"
+        }
+      },
+      {
+        "@type": "MenuItem",
+        "name": "Steak Burger",
+        "description": "",
+        "offers": {
+          "@type": "Offer",
+          "price": "4.79",
+          "priceCurrency": "GBP"
+        }
+      },
+      {
+        "@type": "MenuItem",
+        "name": "Chicken Fillet Burger",
+        "description": "",
+        "offers": {
+          "@type": "Offer",
+          "price": "5.99",
+          "priceCurrency": "GBP"
+        }
+      },
+      {
+        "@type": "MenuItem",
+        "name": "Quarter Pounder Burger",
+        "description": "",
+        "offers": {
+          "@type": "Offer",
+          "price": "5.99",
+          "priceCurrency": "GBP"
+        }
+      },
+      {
+        "@type": "MenuItem",
+        "name": "Half Pounder Burger",
+        "description": "",
+        "offers": {
+          "@type": "Offer",
+          "price": "6.99",
+          "priceCurrency": "GBP"
+        }
+      },
+      {
+        "@type": "MenuItem",
+        "name": "Veggie Burger",
+        "description": "",
+        "offers": {
+          "@type": "Offer",
+          "price": "5.99",
+          "priceCurrency": "GBP"
+        }
+      },
+      {
+        "@type": "MenuItem",
+        "name": "Mega Burger",
+        "description": "",
+        "offers": {
+          "@type": "Offer",
+          "price": "6.99",
+          "priceCurrency": "GBP"
+        }
+      },
+      {
+        "@type": "MenuItem",
+        "name": "Ringer Burger",
+        "description": "",
+        "offers": {
+          "@type": "Offer",
+          "price": "6.99",
+          "priceCurrency": "GBP"
+        }
+      },
+      {
+        "@type": "MenuItem",
+        "name": "Sweet Chilli Burger",
+        "description": "",
+        "offers": {
+          "@type": "Offer",
+          "price": "6.99",
+          "priceCurrency": "GBP"
+        }
+      },
+      {
+        "@type": "MenuItem",
+        "name": "BBQ Burger",
+        "description": "",
+        "offers": {
+          "@type": "Offer",
+          "price": "6.99",
+          "priceCurrency": "GBP"
+        }
+      }
+    ],
+    "Sides": [
+      {
+        "@type": "MenuItem",
+        "name": "Apple Pie",
+        "description": "",
+        "offers": {
+          "@type": "Offer",
+          "price": "2.49",
+          "priceCurrency": "GBP"
+        }
+      },
+      {
+        "@type": "MenuItem",
+        "name": "Fries (Large)",
+        "description": "",
+        "offers": {
+          "@type": "Offer",
+          "price": "3.99",
+          "priceCurrency": "GBP"
+        }
+      },
+      {
+        "@type": "MenuItem",
+        "name": "Fries (Small)",
+        "description": "",
+        "offers": {
+          "@type": "Offer",
+          "price": "2.99",
+          "priceCurrency": "GBP"
+        }
+      },
+      {
+        "@type": "MenuItem",
+        "name": "Onion Rings (6 Pieces)",
+        "description": "",
+        "offers": {
+          "@type": "Offer",
+          "price": "3.49",
+          "priceCurrency": "GBP"
+        }
+      },
+      {
+        "@type": "MenuItem",
+        "name": "Jalapeño Bites(6PCS)",
+        "description": "",
+        "offers": {
+          "@type": "Offer",
+          "price": "4.49",
+          "priceCurrency": "GBP"
+        }
+      },
+      {
+        "@type": "MenuItem",
+        "name": "Mozzarella Sticks(4PCS)",
+        "description": "",
+        "offers": {
+          "@type": "Offer",
+          "price": "3.49",
+          "priceCurrency": "GBP"
+        }
+      },
+      {
+        "@type": "MenuItem",
+        "name": "Coleslaw",
+        "description": "",
+        "offers": {
+          "@type": "Offer",
+          "price": "2.49",
+          "priceCurrency": "GBP"
+        }
+      },
+      {
+        "@type": "MenuItem",
+        "name": "Beans",
+        "description": "",
+        "offers": {
+          "@type": "Offer",
+          "price": "2.49",
+          "priceCurrency": "GBP"
+        }
+      }
+    ],
+    "Dips": [
+      {
+        "@type": "MenuItem",
+        "name": "Burger Sauce Dip",
+        "description": "",
+        "offers": {
+          "@type": "Offer",
+          "price": "0.49",
+          "priceCurrency": "GBP"
+        }
+      },
+      {
+        "@type": "MenuItem",
+        "name": "Chilli Sauce Dip",
+        "description": "",
+        "offers": {
+          "@type": "Offer",
+          "price": "0.49",
+          "priceCurrency": "GBP"
+        }
+      },
+      {
+        "@type": "MenuItem",
+        "name": "Mayo Dip",
+        "description": "",
+        "offers": {
+          "@type": "Offer",
+          "price": "0.49",
+          "priceCurrency": "GBP"
+        }
+      },
+      {
+        "@type": "MenuItem",
+        "name": "Ketchup Dip",
+        "description": "",
+        "offers": {
+          "@type": "Offer",
+          "price": "0.49",
+          "priceCurrency": "GBP"
+        }
+      }
+    ],
+    "Drinks": [
+      {
+        "@type": "MenuItem",
+        "name": "Pepsi Can (330 ml)",
+        "description": "",
+        "offers": {
+          "@type": "Offer",
+          "price": "1.49",
+          "priceCurrency": "GBP"
+        }
+      },
+      {
+        "@type": "MenuItem",
+        "name": "Pepsi Max No Sugar Can (330 ml)",
+        "description": "",
+        "offers": {
+          "@type": "Offer",
+          "price": "1.49",
+          "priceCurrency": "GBP"
+        }
+      },
+      {
+        "@type": "MenuItem",
+        "name": "7 Up Lemon and Lime Can (330 ml)",
+        "description": "",
+        "offers": {
+          "@type": "Offer",
+          "price": "1.49",
+          "priceCurrency": "GBP"
+        }
+      },
+      {
+        "@type": "MenuItem",
+        "name": "Diet Pepsi Can (330 ml)",
+        "description": "",
+        "offers": {
+          "@type": "Offer",
+          "price": "1.49",
+          "priceCurrency": "GBP"
+        }
+      },
+      {
+        "@type": "MenuItem",
+        "name": "7 Up Lemon and Lime Bottle (1.5 L)",
+        "description": "",
+        "offers": {
+          "@type": "Offer",
+          "price": "2.99",
+          "priceCurrency": "GBP"
+        }
+      },
+      {
+        "@type": "MenuItem",
+        "name": "Pepsi Bottle (1.5 L)",
+        "description": "",
+        "offers": {
+          "@type": "Offer",
+          "price": "2.99",
+          "priceCurrency": "GBP"
+        }
+      },
+      {
+        "@type": "MenuItem",
+        "name": "Mirinda Strawberry (330 ml)",
+        "description": "",
+        "offers": {
+          "@type": "Offer",
+          "price": "1.49",
+          "priceCurrency": "GBP"
+        }
+      },
+      {
+        "@type": "MenuItem",
+        "name": "Mirinda Orange (330 ml)",
+        "description": "",
+        "offers": {
+          "@type": "Offer",
+          "price": "1.49",
+          "priceCurrency": "GBP"
+        }
+      },
+      {
+        "@type": "MenuItem",
+        "name": "Water (330 ml)",
+        "description": "",
+        "offers": {
+          "@type": "Offer",
+          "price": "0.99",
+          "priceCurrency": "GBP"
+        }
+      },
+      {
+        "@type": "MenuItem",
+        "name": "Water (1.5 L)",
+        "description": "",
+        "offers": {
+          "@type": "Offer",
+          "price": "2.49",
+          "priceCurrency": "GBP"
+        }
+      }
+    ],
+    "Deserts🍨🍰": [
+      {
+        "@type": "MenuItem",
+        "name": "Deserts",
+        "description": "",
+        "offers": {
+          "@type": "Offer",
+          "price": "3.49",
+          "priceCurrency": "GBP"
+        }
+      }
+    ]
+  }
+}

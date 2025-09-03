@@ -1,0 +1,319 @@
+{
+  "@type": "Restaurant",
+  "@id": "https://www.ubereats.com/store/najma-restaurant/65fj8yrwXT-e5tYy91r0Lg",
+  "name": "Najma Restaurant",
+  "image": [
+    "https://tb-static.uber.com/prod/image-proc/processed_images/475265ca263d909a96cc7e3c9c3be1b8/97ef7458dde62fa918635bc21265d9f5.jpeg",
+    "https://tb-static.uber.com/prod/image-proc/processed_images/475265ca263d909a96cc7e3c9c3be1b8/a70f5c9df440d10213e93244e9eb7cad.jpeg",
+    "https://tb-static.uber.com/prod/image-proc/processed_images/475265ca263d909a96cc7e3c9c3be1b8/97e6648b3593c29cb4a6335f976e6d84.jpeg",
+    "https://tb-static.uber.com/prod/image-proc/processed_images/475265ca263d909a96cc7e3c9c3be1b8/93b5fd796682c6d5302cd5bec164fe90.jpeg",
+    "https://tb-static.uber.com/prod/image-proc/processed_images/475265ca263d909a96cc7e3c9c3be1b8/719c6bd2757b08684c0faae44d43159d.jpeg",
+    "https://tb-static.uber.com/prod/image-proc/processed_images/475265ca263d909a96cc7e3c9c3be1b8/3ac2b39ad528f8c8c5dc77c59abb683d.jpeg"
+  ],
+  "aggregateRating": {
+    "@type": "AggregateRating",
+    "ratingValue": 4,
+    "reviewCount": "280"
+  },
+  "servesCuisine": [
+    "European",
+    "Modern European",
+    "African",
+    "South African",
+    "West African",
+    "Steak",
+    "Chicken",
+    "Fried Chicken",
+    "Rice Dishes",
+    "Pasta",
+    "Breakfast and Brunch",
+    "Kids Friendly",
+    "Adult",
+    "Affordable Meals"
+  ],
+  "geo": {
+    "@type": "GeoCoordinates",
+    "latitude": 51.5085091,
+    "longitude": -0.4162492
+  },
+  "telephone": "+442032612016",
+  "openingHoursSpecification": [
+    {
+      "@type": "OpeningHoursSpecification",
+      "dayOfWeek": "Sunday",
+      "opens": "11:0",
+      "closes": "23:59"
+    },
+    {
+      "@type": "OpeningHoursSpecification",
+      "dayOfWeek": "Sunday",
+      "opens": "11:0",
+      "closes": "23:59"
+    },
+    {
+      "@type": "OpeningHoursSpecification",
+      "dayOfWeek": "Sunday",
+      "opens": "4:59",
+      "closes": "12:0"
+    },
+    {
+      "@type": "OpeningHoursSpecification",
+      "dayOfWeek": [
+        "Monday",
+        "Tuesday"
+      ],
+      "opens": "11:0",
+      "closes": "23:59"
+    },
+    {
+      "@type": "OpeningHoursSpecification",
+      "dayOfWeek": [
+        "Monday",
+        "Tuesday"
+      ],
+      "opens": "4:59",
+      "closes": "12:0"
+    },
+    {
+      "@type": "OpeningHoursSpecification",
+      "dayOfWeek": [
+        "Wednesday",
+        "Thursday",
+        "Friday",
+        "Saturday"
+      ],
+      "opens": "11:0",
+      "closes": "23:59"
+    },
+    {
+      "@type": "OpeningHoursSpecification",
+      "dayOfWeek": [
+        "Wednesday",
+        "Thursday",
+        "Friday",
+        "Saturday"
+      ],
+      "opens": "11:0",
+      "closes": "23:59"
+    },
+    {
+      "@type": "OpeningHoursSpecification",
+      "dayOfWeek": [
+        "Wednesday",
+        "Thursday",
+        "Friday",
+        "Saturday"
+      ],
+      "opens": "4:59",
+      "closes": "12:0"
+    }
+  ],
+  "hasMenu": {
+    "@type": "Menu",
+    "menu_sections": [
+      "Qaddo – Lunch and Casho - Dinner"
+    ],
+    "Qaddo – Lunch and Casho - Dinner": [
+      {
+        "@type": "MenuItem",
+        "name": "Bariis - Rice",
+        "description": "Traditional Somali-style rice dish.",
+        "offers": {
+          "@type": "Offer",
+          "price": "4.00",
+          "priceCurrency": "GBP"
+        }
+      },
+      {
+        "@type": "MenuItem",
+        "name": "Meat Lamb Shoulder",
+        "description": "Tender lamb shoulder, full of flavour.",
+        "offers": {
+          "@type": "Offer",
+          "price": "12.00",
+          "priceCurrency": "GBP"
+        }
+      },
+      {
+        "@type": "MenuItem",
+        "name": "Baasto Fiino - Spaghetti",
+        "description": "",
+        "offers": {
+          "@type": "Offer",
+          "price": "4.00",
+          "priceCurrency": "GBP"
+        }
+      },
+      {
+        "@type": "MenuItem",
+        "name": "Meat Lamb Shank",
+        "description": "Tender lamb shank, full of flavour.",
+        "offers": {
+          "@type": "Offer",
+          "price": "15.00",
+          "priceCurrency": "GBP"
+        }
+      },
+      {
+        "@type": "MenuItem",
+        "name": "Jabaati",
+        "description": "Traditional Yemeni flatbread.",
+        "offers": {
+          "@type": "Offer",
+          "price": "1.00",
+          "priceCurrency": "GBP"
+        }
+      },
+      {
+        "@type": "MenuItem",
+        "name": "Beef Steak",
+        "description": "",
+        "offers": {
+          "@type": "Offer",
+          "price": "9.00",
+          "priceCurrency": "GBP"
+        }
+      },
+      {
+        "@type": "MenuItem",
+        "name": "Canbulo",
+        "description": "",
+        "offers": {
+          "@type": "Offer",
+          "price": "4.00",
+          "priceCurrency": "GBP"
+        }
+      },
+      {
+        "@type": "MenuItem",
+        "name": "Hilib Falfal – Meat in Broth",
+        "description": "Tender meat served in a rich broth.",
+        "offers": {
+          "@type": "Offer",
+          "price": "12.00",
+          "priceCurrency": "GBP"
+        }
+      },
+      {
+        "@type": "MenuItem",
+        "name": "Salmon",
+        "description": "",
+        "offers": {
+          "@type": "Offer",
+          "price": "12.00",
+          "priceCurrency": "GBP"
+        }
+      },
+      {
+        "@type": "MenuItem",
+        "name": "Najma Chicken",
+        "description": "Tender chicken dish with a rich flavour.",
+        "offers": {
+          "@type": "Offer",
+          "price": "9.00",
+          "priceCurrency": "GBP"
+        }
+      },
+      {
+        "@type": "MenuItem",
+        "name": "Chicken Steak",
+        "description": "",
+        "offers": {
+          "@type": "Offer",
+          "price": "9.00",
+          "priceCurrency": "GBP"
+        }
+      },
+      {
+        "@type": "MenuItem",
+        "name": "Beef Suqaar",
+        "description": "",
+        "offers": {
+          "@type": "Offer",
+          "price": "9.00",
+          "priceCurrency": "GBP"
+        }
+      },
+      {
+        "@type": "MenuItem",
+        "name": "Malawax (1 piece) - Sweet Pancake",
+        "description": "",
+        "offers": {
+          "@type": "Offer",
+          "price": "1.00",
+          "priceCurrency": "GBP"
+        }
+      },
+      {
+        "@type": "MenuItem",
+        "name": "Chicken Legs",
+        "description": "Tender and juicy chicken legs.",
+        "offers": {
+          "@type": "Offer",
+          "price": "9.00",
+          "priceCurrency": "GBP"
+        }
+      },
+      {
+        "@type": "MenuItem",
+        "name": "Najma 2",
+        "description": "",
+        "offers": {
+          "@type": "Offer",
+          "price": "9.00",
+          "priceCurrency": "GBP"
+        }
+      },
+      {
+        "@type": "MenuItem",
+        "name": "Baasto Balbalaar - Pasta Linguini",
+        "description": "",
+        "offers": {
+          "@type": "Offer",
+          "price": "4.00",
+          "priceCurrency": "GBP"
+        }
+      },
+      {
+        "@type": "MenuItem",
+        "name": "Chicken Suqaar",
+        "description": "Tender chicken in a rich and aromatic sauce.",
+        "offers": {
+          "@type": "Offer",
+          "price": "9.00",
+          "priceCurrency": "GBP"
+        }
+      },
+      {
+        "@type": "MenuItem",
+        "name": "Soor/ Ugali with Sauce",
+        "description": "Traditional East African cornmeal staple served with a rich sauce.",
+        "offers": {
+          "@type": "Offer",
+          "price": "5.00",
+          "priceCurrency": "GBP"
+        }
+      },
+      {
+        "@type": "MenuItem",
+        "name": "Ambuulo - Rice and Beans",
+        "description": "",
+        "offers": {
+          "@type": "Offer",
+          "price": "5.00",
+          "priceCurrency": "GBP"
+        }
+      },
+      {
+        "@type": "MenuItem",
+        "name": "Anjeero (3 pieces) - Sour Pancake",
+        "description": "Sour pancakes, served in a set of three.",
+        "offers": {
+          "@type": "Offer",
+          "price": "3.00",
+          "priceCurrency": "GBP"
+        }
+      }
+    ]
+  }
+}

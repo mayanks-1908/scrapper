@@ -12,7 +12,8 @@ const fsPromises = {
     stat: promisify(fs.stat)
 };
 
-const OUTPUT_DIR = path.join(process.cwd(), 'data', 'output');
+const BASE_DATA_DIR = path.join(process.cwd(), 'data');
+const OUTPUT_DIR = path.join(BASE_DATA_DIR, 'output');
 
 // Ensure output directory exists on startup
 (async () => {
@@ -34,6 +35,41 @@ function getOutputPath(filename) {
     if (!filename) throw new Error('Filename is required');
     const safeFilename = filename.replace(/[^a-z0-9\-_.]/gi, '_');
     return path.join(OUTPUT_DIR, safeFilename);
+}
+
+/**
+ * Ensures restaurant directory exists at project root
+ * @param {string} restaurantName - Name of the restaurant
+ * @returns {Promise<string>} - Path to the restaurant directory
+ */
+async function ensureRestaurantDir(restaurantName) {
+    if (!restaurantName) throw new Error('Restaurant name is required');
+    
+    const safeRestaurantName = restaurantName.toLowerCase().replace(/[^a-z0-9\-_.]/gi, '_');
+    const restaurantDir = path.join(process.cwd(), safeRestaurantName);
+    
+    if (!fs.existsSync(restaurantDir)) {
+        fs.mkdirSync(restaurantDir, { recursive: true });
+    }
+    
+    return restaurantDir;
+}
+
+/**
+ * Gets full file path in a restaurant-specific directory at project root
+ * @param {string} restaurantName - Name of the restaurant (uber, just, etc.)
+ * @param {string} filename - Name of the file
+ * @returns {string} Full file path
+ */
+function getRestaurantPath(restaurantName, filename) {
+    if (!restaurantName) throw new Error('Restaurant name is required');
+    if (!filename) throw new Error('Filename is required');
+    
+    const safeRestaurantName = restaurantName.toLowerCase().replace(/[^a-z0-9\-_.]/gi, '_');
+    const safeFilename = filename.replace(/[^a-z0-9\-_.]/gi, '_');
+    const restaurantDir = path.join(process.cwd(), safeRestaurantName);
+    
+    return path.join(restaurantDir, safeFilename);
 }
 
 /**
@@ -96,6 +132,35 @@ export async function deleteFile(filename) {
 export async function getFileStats(filename) {
     const filePath = getOutputPath(filename);
     return await fsPromises.stat(filePath);
+}
+
+/**
+ * Saves HTML content to a restaurant-specific folder at project root
+ * @param {string} restaurantName - Name of the restaurant (uber, just, etc.)
+ * @param {string} filename - Name of the file
+ * @param {string} htmlContent - HTML content to save
+ * @returns {Promise<string>} - Full path where file was saved
+ */
+export async function saveRestaurantHtml(restaurantName, filename, htmlContent) {
+    await ensureRestaurantDir(restaurantName);
+    const filePath = getRestaurantPath(restaurantName, filename);
+    await fsPromises.writeFile(filePath, htmlContent, 'utf-8');
+    return filePath;
+}
+
+/**
+ * Saves JSON data to a restaurant-specific folder at project root
+ * @param {string} restaurantName - Name of the restaurant (uber, just, etc.)
+ * @param {string} filename - Name of the file
+ * @param {any} data - Data to save
+ * @returns {Promise<string>} - Full path where file was saved
+ */
+export async function saveToRestaurantFile(restaurantName, filename, data) {
+    await ensureRestaurantDir(restaurantName);
+    const filePath = getRestaurantPath(restaurantName, filename);
+    const content = JSON.stringify(data, null, 2);
+    await fsPromises.writeFile(filePath, content, 'utf-8');
+    return filePath;
 }
 
 /**

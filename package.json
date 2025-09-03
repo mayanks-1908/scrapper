@@ -31,6 +31,7 @@
     "p-limit": "^7.1.0",
     "puppeteer": "^24.16.2",
     "puppeteer-extra": "^3.3.6",
-    "puppeteer-extra-plugin-stealth": "^2.11.2"
+    "puppeteer-extra-plugin-stealth": "^2.11.2",
+    "puppeteer-real-browser": "^1.4.3"
   }
 }
