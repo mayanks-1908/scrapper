@@ -1,1 +1,74 @@
-# scrapper
+# Uber Eats Scraper
+
+A collection of Node.js scripts for scraping restaurant data from Uber Eats.
+
+## Prerequisites
+
+- Node.js 14+
+- npm or yarn
+- Puppeteer (will be installed via npm)
+
+## Installation
+
+```bash
+# Clone the repository
+git clone https://github.com/mayanks-1908/scrapper.git
+cd scrapper
+
+# Install dependencies
+npm install
+```
+
+### 1. Restaurant Scraper
+Scrapes detailed information for specific restaurants.
+
+```bash
+npm run scrape
+```
+
+**Outputs:**
+- `data/processed_stores/`: JSON files with restaurant details
+
+## Configuration
+
+### Environment Variables
+Create a `.env` file in the root directory:
+
+```env
+#S3 Configuration
+AWS_ACCESS_KEY_ID=your-access-key-id
+AWS_SECRET_ACCESS_KEY=your-secret-access-key
+AWS_REGION=your-region
+```
+
+The scraper follows a two-step pipeline to collect and process restaurant data:
+
+## 1. Main Page Scraping
+- Scrapes restaurant listings from Uber Eats main feed
+- Saves metadata for each restaurant including name, ID, and URL
+- Outputs JSON files to `data/parsed_html/` directory
+
+## 2. Store Processing
+- Processes each restaurant's detailed information
+- Extracts:
+  - Menu items with prices and descriptions
+  - Restaurant details (address, ratings, etc.)
+  - Operating hours and availability
+- Saves processed data to `data/processed_stores/` directory
+- Uploads results to S3 for backup and further processing
+
+## Rate Limiting
+The pipeline includes built-in delays to be gentle on servers:
+- 15-30 second random delay between store processing
+- 5-15 second delay between processing different postal code batches
+
+## Error Handling
+- Failed store URLs are logged to [failed_store_urls.log]
+- Each processing step includes success/failure logging
+- The pipeline continues processing even if individual stores fail
+
+## Output Structure
+- Raw metadata from main pages in `data/parsed_html/`
+- Processed restaurant data in `data/processed_stores/`
+- Raw API responses in `data/uberEatsRawJsonLd/`
+- Failed store URLs in `failed_store_urls.log`

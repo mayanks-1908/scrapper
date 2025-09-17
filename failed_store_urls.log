@@ -1,0 +1,8 @@
+2025-09-17T13:43:06.671Z - https://www.ubereats.com/store/pret-a-manger-gloucester-road/QBhtIuqEXQ-dmrayt19PgQ - TypeError: Cannot read properties of null (reading 'replace')
+    at generateRestaurantId (file:///C:/coding/scrapper/src/scrapers/apiExtractor.js:18:44)
+    at extractRestaurantDataFromAppJson (file:///C:/coding/scrapper/src/scrapers/apiExtractor.js:429:26)
+    at extractUberEatsStore (file:///C:/coding/scrapper/src/scrapers/apiExtractor.js:473:25)
+    at processStores (file:///C:/coding/scrapper/src/main.js:379:31)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at async pipeline (file:///C:/coding/scrapper/src/main.js:454:13)
+    at async file:///C:/coding/scrapper/src/main.js:471:9
