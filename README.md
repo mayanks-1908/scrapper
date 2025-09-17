@@ -19,45 +19,15 @@ cd scrapper
 npm install
 ```
 
-## Available Scripts
-
-### 1. Main Page Scraper
-Scrapes restaurant listings from the main Uber Eats feed.
-
-```bash
-# Run with default URL
-npm run mainPageScrape
-
-# Or directly with Node
-node src/scrapers/mainPageScrapper.js
-```
-
-**Outputs:**
-- `ubereats.json`: Extracted restaurant data
-- `netlogs/`: Network request logs
-- `page_after_js.html`: Final rendered HTML
-
-### 2. Restaurant Scraper
+### 1. Restaurant Scraper
 Scrapes detailed information for specific restaurants.
 
 ```bash
-# Run with default configuration
-npm run puppeter
-
-# Or with custom URL
-node src/scrapers/restroScrapperWithPup.js "https://www.ubereats.com/store/restaurant-name/ID"
+npm run scrape
 ```
 
 **Outputs:**
-- `data/output/`: JSON files with restaurant details
-- Screenshots and debug information
-
-### 3. API Extractor
-Extracts data from Uber Eats API responses.
-
-```bash
-node src/scrapers/apiExtractor.js
-```
+- `data/processed_stores/`: JSON files with restaurant details
 
 ## Configuration
 
@@ -65,21 +35,40 @@ node src/scrapers/apiExtractor.js
 Create a `.env` file in the root directory:
 
 ```env
-# Proxy configuration (if needed)
-PROXY_SERVER=your-proxy-server:port
-PROXY_USERNAME=your-username
-PROXY_PASSWORD=your-password
-
-# Output directory
-OUTPUT_DIR=./data/output
+#S3 Configuration
+AWS_ACCESS_KEY_ID=your-access-key-id
+AWS_SECRET_ACCESS_KEY=your-secret-access-key
+AWS_REGION=your-region
 ```
 
-## Troubleshooting
+The scraper follows a two-step pipeline to collect and process restaurant data:
 
-### Common Issues
+## 1. Main Page Scraping
+- Scrapes restaurant listings from Uber Eats main feed
+- Saves metadata for each restaurant including name, ID, and URL
+- Outputs JSON files to `data/parsed_html/` directory
 
-1. **Page Not Loading**
-   - Check your internet connection
-   - Try running with `headless: false` for debugging
-   - Verify if you're being blocked by Cloudflare
+## 2. Store Processing
+- Processes each restaurant's detailed information
+- Extracts:
+  - Menu items with prices and descriptions
+  - Restaurant details (address, ratings, etc.)
+  - Operating hours and availability
+- Saves processed data to `data/processed_stores/` directory
+- Uploads results to S3 for backup and further processing
 
+## Rate Limiting
+The pipeline includes built-in delays to be gentle on servers:
+- 15-30 second random delay between store processing
+- 5-15 second delay between processing different postal code batches
+
+## Error Handling
+- Failed store URLs are logged to [failed_store_urls.log]
+- Each processing step includes success/failure logging
+- The pipeline continues processing even if individual stores fail
+
+## Output Structure
+- Raw metadata from main pages in `data/parsed_html/`
+- Processed restaurant data in `data/processed_stores/`
+- Raw API responses in `data/uberEatsRawJsonLd/`
+- Failed store URLs in `failed_store_urls.log`

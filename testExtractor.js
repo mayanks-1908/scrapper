@@ -1,4 +1,4 @@
-import { restroInfoExtractorFromAllStores } from './htmlParser.js';
+import { restroInfoExtractorFromAllStores } from './src/htmlParser.js';
 import { readFileSync, writeFileSync } from 'fs';
 import { fileURLToPath } from 'url';
 import { dirname, join } from 'path';
